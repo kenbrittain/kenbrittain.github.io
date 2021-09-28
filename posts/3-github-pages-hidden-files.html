@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link href="../style.css" rel="stylesheet">
+    <title>GitHub Pages Hidden Files</title>
+</head>
+<body class="hack container">
+
+<h1>GitHub Pages Hidden Files</h1>
+<p>9/28/2021</p>
+
+<p>
+    Thig blog is a static HTML website. That means the files contained within it are 
+    kept rather lean. Everything is either copies or written by hand so keeping
+    the non-blog contents to a minimum is a plus. To that end, I create two (2) files
+    that can be used as templates for posts. I placed them in a directory called
+    <code>.templates</code> (super creative I know).
+</p>
+<p>
+    Next, I checked the website because I wanted to see how these files were served.
+    It turns out that they weren't served at all. I <i>discovered</i> that GitHub 
+    Pages hides files and directories that begin with the underscore <code>_</code> 
+    and dot <code>.</code> characters.
+</p>
+
+<p>
+    I was pretty sure that I was not the only person who <i>discovered</i> this tidbit. With just
+    a bit of searching I found the reason why these files are hidden. <a href="https://pages.github.com/">GitHub Pages</a>
+    processes your repository using <a href="https://jekyllrb.com/">Jekyll</a>. Jekyll
+    hides these prefixed files and directories because are the are special to that tool.
+</p>
+
+<p>
+    To serve or not to serve? I decided to serve my newly minted template files by using
+    inserting the <code>.nojekyll</code> file and having my static website be, well, static.
+    I am sure that in some fashion pushes will be processed faster. 
+</p>
+
+<p>
+    The offical announcement of the feature was made in 2009 on *The GitHub 
+    Blog* - <a href="https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/">Bypassing Jekyll on GitHub Pages</a>.
+</p>
+
+<p>
+    <a href="https://stackoverflow.com">Stack Overflow</a> had the following answers which tipped me off in the first place:
+</p>
+<ul>
+    <li><a href="https://stackoverflow.com/questions/58699725/how-can-one-get-github-pages-to-serve-dot-files-like-rfc5785s-well-known">How can one get github pages to serve dot files like RFC5785's /.well-known/?</a></li>
+    <li><a href="https://stackoverflow.com/questions/20893913/does-pages-github-com-support-directory-names-with-a-preceeding-dot/20910276">Does pages.github.com support directory names with a preceeding . (dot)?</a></li>
+</ul>
+
+<a href="../index.html">&lt; back</a>
+
+</body>
+</html>
