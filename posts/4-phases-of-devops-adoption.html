@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link href="../style.css" rel="stylesheet">
+    <title>Phases of DevOps Adoption</title>
+</head>
+<body class="hack container">
+
+<h1>Phases of DevOps Adoption</h1>
+<p>10/6/2021</p>
+
+<p>
+    In my tenure supporting software teams and implementing DevOps, I have come to
+    accept the following phases of adoption. This means that starting with a
+    development team performing legacy development and deployment there is an
+    adoption process they must go through. DevOps can be mandated and they can
+    be told about CALMS, etc. but nothing will change until they proceed through
+    these phases. Some organizations can go faster and some will go slower. If
+    you do not allow them to progress you will probably just get malicious
+    compliance. If you are looking for a change then allow the following phases to
+    develop naturally. Trust me, I've fought the battle and teams will not change
+    unless they want to. Let them.
+</p>
+
+<h2>Phases of DevOps Adoption </h2>
+
+<ul>
+    <li>Automate the Manual</li>
+    <li>Make it Better</li>
+    <li>Optimize for DevOps</li>
+</ul>
+
+<p>
+    It all starts with the decision to begin a DevOps transformation. When most
+    companies begin implementing DevOps it boils down to creating a culture
+    where development teams are accountable. They are accountable for building
+    their projects, deploying them, and supporting them. This is difficult
+    because, historically, they may not have been the case. They may have been
+    part of a culture that created a ticket and requested files to be copied to
+    a server. This may seem very old school, but trust me, there are many
+    companies still performing software deploys this way. I'm sure yours is not
+    one of them ;)
+</p>
+
+<h2>Automate the Manual</h2>
+
+<p>
+    There are two (2) things that need to be automated. First, nothing else
+    can proceed until you have a repeatable build process that is not located
+    on the developers' machine. Next, you need the ability to consistently
+    deploy the product to an initial environment or location. Scripts are
+    preferable but documentation can suffice at the start.
+</p>
+
+<p>
+    The first goal is to get the build off the desktop. If the development team
+    gives you a binary from their machine: STOP! At the very least you can script
+    a simple build process and locate that on a server. Work with the team to
+    document the build process and get it off the desktop! I cannot reiterate
+    that enough.
+</p>
+
+<p>
+    Automating the build process is generally started by creating a build job
+    in a build system. This step has traditionally been implemented in Jenkins,
+    as it is available for free, and easily installed, but I have also used
+    PowerShell and SSH to kick off the build. Remember, the goal is to get the
+    build process off of the developers' machine. At this point, we are not
+    concerned with pipelines. The only pipeline you should care about is building
+    the project.
+</p>
+
+<blockquote>
+    Now, some of you will be raising your eyebrows and questioning my
+    trustworthiness for claiming development teams are building on a desktop and
+    copying files to a server. The year is 2021 and containers rule the world.
+    Kubernetes! Cloud! Trust me, they exist, and they are in your company.
+    You just have not found them yet.
+</blockquote>
+
+<p>
+    The next step is defining the deployment process. If the team does not have
+    a document or artifact that describes the deployment process then I would
+    guess they do not know the dependencies for their project. This has
+    played out multiple times with statements like "the deployment process is
+    easy ... just copy these files to this directory on the server." What about
+    database credentials and configurations? Are there any local directories that
+    need to exist for logging? Where does the files configuration go? Who has
+    access to the passwords and how do they get changed when security rotates
+    them for you?
+</p>
+
+<p>
+    Define the deployment process and make sure it includes dependencies. This
+    part of the exercise can be done in Confluence or held in a Word document.
+    It doesn't matter where but it needs to be done. You cannot automate anything
+    unless you know what you are trying to automate. Anyone who tells you that
+    their deployment process is simply copying files is lying.
+</p>
+
+<h2>Make it Better</h2>
+
+<p>
+    When you begin the process of automation there may be mistrust for the
+    implementation. You will need to answer questions like:
+</p>
+
+<ul>
+    <li>How do I know the correct files were copied to that directory?</li>
+    <li>Why would deploy a file that has not changed?</li>
+    <li>How can I review the artifacts created in the build to make sure they are correct?</li>
+</ul>
+
+<p>
+    During this phase, the development team may be questioning the process but
+    are generally pleased with the results. That is, they now have more time on
+    their hands because the manual stuff, or at least a good portion of it,
+    has been automated.
+</p>
+
+<p>
+    The questions above are real questions from real development teams. Please
+    remember that a team cranking out business requests to a batch process that
+    has worked for over 10+ years will question things. They will not have the
+    level of comfort that you do with an automated process. The goal of this
+    phase is to give that team the same level of comfort.
+</p>
+
+<p>
+    Making it better means using the various tools to provide insight into the
+    processes you are automating. If you are creating a zip file with the
+    binaries from a build we have done the following:
+</p>
+
+<ul>
+    <li>Display the version of a DLL (for Windows) or file in the log before packaging.</li>
+    <li>Calculate and display an MD5 checksum for each file.</li>
+    <li>Create a manifest file with the contents of what you are packaging</li>
+</ul>
+
+<p>
+    Remember, the team may be apprehensive about the automation being thrust
+    upon them. From the simplest form of scripting the build and packaging process
+    and placing the result on a file server to a full-blown Jenkins pipeline with
+    the artifacts ending up in a binary repository. They may want it, like it,
+    or trust it. It is different from what they have done, or have been doing,
+    for years! You need to show them and demonstrate via the tooling that the
+    process is better than the way they were doing it originally.
+</p>
+
+<p>
+    You will know this phase is over when the development teams begin to trust
+    the build and deploy process. This will be apparent when they 1) don't talk
+    or ask questions about it how it works anymore, and 2) they begin requesting
+    features.
+</p>
+
+<h2>Optimize for DevOps</h2>
+
+<p>
+    At this point, you have development team that is comfortable with the
+    automation. The deployment process went from some level of documentation to,
+    perhaps, a full deployment process in a vendor product. More than likely you
+    will have a Jenkins server being pushed to its limits.
+</p>
+
+<p>
+    These are good things. Any automation, even the simplest, is better than
+    a non-repeatable process being executed on some random developer's
+    desktop. The worst way to find out about that build process is when they
+    leave the company and things stop.
+</p>
+
+<p>
+    This phase goes on pretty much forever. There will be migrations from tool
+    "A" to tool "B" coming along based upon the company's appetite for change
+    and cost. Product versions and operating system updates will be installed.
+    Most importantly, the development teams will be being requesting things
+    along the lines of:
+</p>
+
+<ul>
+    <li>Can we run these integration tests after we deploy ... automatically?</li>
+    <li>I want to build the branch first and if the unit tests pass then I want to merge.</li>
+    <li>Can I deploy all of my projects to a single environment ... at once?</li>
+</ul>
+
+<p>
+    When there is trust in the system developed or utilized there is no telling
+    how far or fast the teams can go. You must give a traditional, or legacy
+    process-focused team time to adjust. I have never encountered a development
+    team that questions automation after they have gone through these phases.
+    For the record, starting in the first phase and proceeding through until the
+    last, in my experience, takes two (2) years. Mind you this was without any
+    management mandate and we modernized and automated thousands of projects
+    across roughly two (2) dozen development teams.
+</p>
+
+<a href="../index.html">&lt; back</a>
+
+</body>
+</html>
