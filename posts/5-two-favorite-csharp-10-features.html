@@ -9,7 +9,7 @@
 <body class="hack container">
 
 <h1>Two Favorite C# 10 Features</h1>
-<p>10/19/2021</p>
+<p>10/19/2021 (Updated 11/2/2021)</p>
 
 <p>
     C# 10 is being released in November 2021 along with .NET 6. There are several
@@ -57,10 +57,10 @@
 
 <pre class="prettyprint">
   <code class="lang-cs">
-  using System;                     // for all files (if needed or not)
-  using System.Collections.Generic; // obvious reasons
-  using System.Linq;                // makes playing with collections better
-  using System.Threading.Tasks;     // mostly for web projects
+  global using System;                     // for all files (if needed or not)
+  global using System.Collections.Generic; // obvious reasons
+  global using System.Linq;                // makes playing with collections better
+  global using System.Threading.Tasks;     // mostly for web projects
   </code>
 </pre>
 
@@ -128,6 +128,10 @@
     in the <code>csproj</code> file. It can handle additions clearly and simply.
     Once a team decides that is how they are going to manage their code, it
     documents itself.
+</p>
+
+<p>
+    <em>Updated: edited using block code to include <code>global</code> to be more clear.</em>
 </p>
 
 <a href="../index.html">&lt; back</a>
