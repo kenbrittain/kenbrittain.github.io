@@ -27,7 +27,7 @@
 
 <blockquote class="blockquote">
   <p>
-    If 1 is a complete beginner and 10 means your a an expert in X,
+    If 1 is a complete beginner and 10 means you're an expert in X,
     where would you rank your understanding between 1 and 10?
   </p>
 </blockquote>
@@ -43,7 +43,7 @@
 </p>
 
 <p>
-  If you are a C# developer and you say 8+ you will then get this
+  If you are a C# developer, and you say 8+ you will then get this
   question: "How many uses of the keyword <code>new</code> exist in
   the C# language?" In the C# programming language
   the <code>new</code> keyword can be used as:
@@ -56,13 +56,13 @@
 </ul>
 
 <p>
-  Most devlopers use and will provide examples of using the operator
+  Most developers use and will provide examples of using the operator
   to instantiate objects and arrays.
 </p>
 
 <p>
   The <code>new</code> <b>operator</b> used to invoke constructors,
-  arrays, and initantiating anonymous types. This is the most common
+  arrays, and instantiating anonymous types. This is the most common
   usage and
   documented <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/new-operator">here</a>.
 </p>
@@ -87,18 +87,18 @@
 
 <p>
   Someone who has programmed C# professionally, for any length of
-  time, will have used generics. It they wrote generic classes they
-  may have encountered the contraint usage. This is good indicator
+  time, will have used generics. If they wrote generic classes they
+  may have encountered the constraint usage. This is good indicator
   they are writing libraries or shared code for their projects. This
-  contraint is used when the generic class is required to instantiate
+  constraint is used when the generic class is required to instantiate
   a type. I have used this to create domain objects and then fill them
   up with data programmatically, generally with reflection.
 </p>
 
 <p>
-  The <b>contraint</b> <code>where T : new()</code> ensures the type
+  The <b>constraint</b> <code>where T : new()</code> ensures the type
   has a default (parameterless) constructor and is
-  documeted <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/constraints-on-type-parameters">here</a>.
+  documented <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/constraints-on-type-parameters">here</a>.
 </p>
 
 <pre class="prettyprint">
@@ -117,10 +117,10 @@
 </pre>
 
 <p>
-  Experience has shown that the new constraint usage is usally
+  Experience has shown that the new constraint usage is usually
   associated with creating and setting up some object or
   properties. The generic type will also have an interface implemented
-  that can be to properly initialize the newly created object.
+  that can be used to properly initialize the newly created object.
 </p>
 
 <p>
@@ -130,8 +130,8 @@
 </p>
 
 <p>
-  I have only used the modifier when intergrating into an existing
-  library or shared code and I absolutely refuse, or cannot, change
+  I have only used the modifier when integrating into an existing
+  library or shared code, and I absolutely refuse, or cannot, change
   the name of the class member. If you are okay with changing the
   derived member name, even just adding a character, then this
   modifier is generally not required.
