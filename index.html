@@ -1,35 +1,17 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <link href="./style.css" rel="stylesheet">
-    <title>Code + DevOps</title>
-    <script defer data-domain="kenbrittain.com" src="https://plausible.io/js/plausible.js"></script>
-  </head>
-<body class="hack container">
-
+---
+layout: default
+---
 <h1>Code + DevOps</h1>
 <p>
     <a href="./projects.html">Projects</a> <a href="./about.html">About</a>
 </p>
 
 <ul>
-    <li>[10] <a href="posts/10-unit-testing-system-io.html">Unit Testing System.IO</a></li>
-    <li>[9] <a href="posts/9-using-spectre-console-for-cli.html">Using Spectre.Console for CLI</a></li>
-    <li>[8] <a href="posts/8-csharp-project-layout.html">C# Project Layout</a></li>
-    <li>[7] <a href="posts/7-runbook-compiler.html">Runbook Compiler</a></li>
-    <li>[6] <a href="posts/6-yaml-runbooks.html">YAML Runbooks</a></li>
-    <li>[5] <a href="posts/5-two-favorite-csharp-10-features.html">Two Favorite C# 10 Features</a></li>
-    <li>[4] <a href="posts/4-phases-of-devops-adoption.html">Phases of DevOps Adoption</a></li>
-    <li>[3] <a href="posts/3-github-pages-hidden-files.html">GitHub Pages Hidden Files</a></li>
-    <li>[2] <a href="posts/2-new-keyword-interview-question.html">New Keyword Interview Question</a></li>
-    <li>[1] <a href="posts/1-keep-it-simple-stupid.html">Keep it Simple Stupid</a></li>
-    <li>[0] <a href="posts/0-zero-based-blog.html">Zero Based Blog</a></li>
+    {% for post in site.posts %}
+    <li>[{{ forloop.rindex0 }}] <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
 </ul>
 
 <p>
     <em>All opinions expressed are my own and not that of my employer.</em>
 </p>
-
-</body>
-</html>
