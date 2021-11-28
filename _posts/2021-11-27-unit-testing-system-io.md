@@ -1,7 +1,7 @@
 ---
 permalink: /posts/10-unit-testing-system-io.html
 title: Unit Testing System.IO
-layout: code
+layout: post
 ---
 
 <p>
@@ -26,26 +26,24 @@ layout: code
     pattern for reading from a file.
 </p>
 
-<pre class="prettyprint">
-  <code class="lang-cs">
-    public class FileSample
+```csharp
+public class FileSample
+{
+    public bool ProcessText(string fileName)
     {
-        public bool ProcessText(string fileName)
+        var exists = File.Exists(fileName);
+        if (exists)
         {
-            var exists = File.Exists(fileName);
-            if (exists)
-            {
-                var text = File.ReadAllText(fileName);
-                // do something with `text`
-                return true;
-            }
-
-            Console.WriteLine($"{fileName} not found!");
-            return false;
+            var text = File.ReadAllText(fileName);
+            // do something with `text`
+            return true;
         }
+
+        Console.WriteLine($"{fileName} not found!");
+        return false;
     }
-  </code>
-</pre>
+}
+```
 
 <p>
     This style of code made it rather difficult to write unit tests when it
@@ -54,16 +52,14 @@ layout: code
     used in the unit testing code.
 </p>
 
-<pre class="prettyprint">
-  <code class="lang-cs">
-    public interface IFileWrapper
-    {
-        bool Exists(string fileName);
-        string ReadAllText(string fileName);
-        // same for all other methods used in your code
-    }
-  </code>
-</pre>
+```csharp
+public interface IFileWrapper
+{
+    bool Exists(string fileName);
+    string ReadAllText(string fileName);
+    // same for all other methods used in your code
+}
+```
 
 <p>
     The default implementation would be coded that forwarded the calls to actual
@@ -71,15 +67,13 @@ layout: code
     written and maintained. As with all code, there is a cost.
 </p>
 
-<pre class="prettyprint">
-  <code class="lang-cs">
-    public class DefaultFileWrapper : IFileWrapper
-    {
-        public bool Exists(string fileName) => File.Exists(fileName);
-        public string ReadAllText(string fileName) => File.ReadAllText(fileName);
-    }
-  </code>
-</pre>
+```csharp
+public class DefaultFileWrapper : IFileWrapper
+{
+    public bool Exists(string fileName) => File.Exists(fileName);
+    public string ReadAllText(string fileName) => File.ReadAllText(fileName);
+}
+```
 
 <p>
     It is the same for every project that uses the <code>File</code> and
@@ -92,37 +86,35 @@ layout: code
     nonsense for you.
 </p>
 
-<pre class="prettyprint">
-  <code class="lang-cs">
-    public class WrapperNonsense
+```csharp
+public class WrapperNonsense
+{
+    private IFileWrapper _wrapper;
+
+    public WrapperNonsense() : this(new DefaultFileWrapper())
     {
-        private IFileWrapper _wrapper;
-
-        public WrapperNonsense() : this(new DefaultFileWrapper())
-        {
-        }
-
-        public WrapperNonsense(IFileWrapper wrapper)
-        {
-            _wrapper = wrapper ?? throw new ArgumentNullException(nameof(wrapper));
-        }
-
-        public bool ProcessText(string fileName)
-        {
-            var exists = _wrapper.Exists(fileName);
-            if (exists)
-            {
-                var text = _wrapper.ReadAllText(fileName);
-                // do something with `text`
-                return true;
-            }
-
-            Console.WriteLine($"{fileName} not found!");
-            return false;
-        }
     }
-  </code>
-</pre>
+
+    public WrapperNonsense(IFileWrapper wrapper)
+    {
+        _wrapper = wrapper ?? throw new ArgumentNullException(nameof(wrapper));
+    }
+
+    public bool ProcessText(string fileName)
+    {
+        var exists = _wrapper.Exists(fileName);
+        if (exists)
+        {
+            var text = _wrapper.ReadAllText(fileName);
+            // do something with `text`
+            return true;
+        }
+
+        Console.WriteLine($"{fileName} not found!");
+        return false;
+    }
+}
+```
 
 <p>
     The good news is that the work has already been done! The team at
@@ -143,37 +135,35 @@ layout: code
     in there, including some help with mock objects.
 </p>
 
-<pre class="prettyprint">
-  <code class="lang-cs">
-    public class AbstractionSample
+```csharp
+public class AbstractionSample
+{
+    private IFileSystem _fs;
+
+    public AbstractionSample() : this(new FileSystem())
     {
-        private IFileSystem _fs;
-
-        public AbstractionSample() : this(new FileSystem())
-        {
-        }
-
-        public AbstractionSample(IFileSystem fs)
-        {
-            _fs = fs ?? throw new ArgumentNullException(nameof(fs));
-        }
-
-        public bool ProcessText(string fileName)
-        {
-            var exists = _fs.File.Exists(fileName);
-            if (exists)
-            {
-                var text = _fs.File.ReadAllText(fileName);
-                // do something with `text`
-                return true;
-            }
-
-            Console.WriteLine($"{fileName} not found!");
-            return false;
-        }
     }
-  </code>
-</pre>
+
+    public AbstractionSample(IFileSystem fs)
+    {
+        _fs = fs ?? throw new ArgumentNullException(nameof(fs));
+    }
+
+    public bool ProcessText(string fileName)
+    {
+        var exists = _fs.File.Exists(fileName);
+        if (exists)
+        {
+            var text = _fs.File.ReadAllText(fileName);
+            // do something with `text`
+            return true;
+        }
+
+        Console.WriteLine($"{fileName} not found!");
+        return false;
+    }
+}
+```
 
 <p>
     This library allows you to write less code, get the same effect, and have

@@ -1,7 +1,7 @@
 ---
 permalink: /posts/5-two-favorite-csharp-10-features.html
 title: Two Favorite C# 10 Features
-layout: code
+layout: post
 ---
 
 <p>
@@ -48,14 +48,12 @@ layout: code
     relying upon developers to check the project file.
 </p>
 
-<pre class="prettyprint">
-  <code class="lang-cs">
-  global using System;                     // for all files (if needed or not)
-  global using System.Collections.Generic; // obvious reasons
-  global using System.Linq;                // makes playing with collections better
-  global using System.Threading.Tasks;     // mostly for web projects
-  </code>
-</pre>
+```csharp
+global using System;                     // for all files (if needed or not)
+global using System.Collections.Generic; // obvious reasons
+global using System.Linq;                // makes playing with collections better
+global using System.Threading.Tasks;     // mostly for web projects
+```
 
 <p>
     This method of including namespaces does not affect the .NET from removing
@@ -72,20 +70,18 @@ layout: code
     are exceptions but never for multiple namespaces.
 </p>
 
-<pre class="prettyprint">
-  <code class="lang-cs">
-  using System;                     // for all files (if needed or not)
-  using System.Collections.Generic; // obvious reasons
-  using System.Linq;                // makes playing with collections better
-  using System.Threading.Tasks;     // mostly for web projects
+```csharp
+using System;                     // for all files (if needed or not)
+using System.Collections.Generic; // obvious reasons
+using System.Linq;                // makes playing with collections better
+using System.Threading.Tasks;     // mostly for web projects
 
-  namespace TheNamespace
-  {
-      // Everything is now tabbed over - 4 spaces!
-      public class SampleClass { }
-  }
-  </code>
-</pre>
+namespace TheNamespace
+{
+  // Everything is now tabbed over - 4 spaces!
+  public class SampleClass { }
+}
+```
 
 <p>
     That is why the file-scoped namespace feature makes so much sense to me. It
@@ -93,13 +89,11 @@ layout: code
     with global using directives the above code becomes:
 </p>
 
-<pre class="prettyprint">
-  <code class="lang-cs">
-  namespace TheNamespace;
-  // Everything is now tabbed over - 4 spaces!
-  public class SampleClass { }
-  </code>
-</pre>
+```csharp
+namespace TheNamespace;
+// Everything is now tabbed over - 4 spaces!
+public class SampleClass { }
+```
 
 <p>
     This works for me!
