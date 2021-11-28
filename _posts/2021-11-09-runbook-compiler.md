@@ -1,11 +1,11 @@
 ---
 permalink: /posts/7-runbook-compiler.html
 title: Runbook Compiler
-layout: code
+layout: post
 ---
 
 <p>
-    In this <a href="2021-10-30-yaml-runbooks.html">post</a> I recommended storing your
+    In this <a href="2021-10-30-yaml-runbooks.md">post</a> I recommended storing your
     runbooks in the YAML format. The idea was to keep the system documentation,
     and runbooks are a form of system documentation, in a developer friendly
     format. This simple step would enable document changes to be committed along
@@ -61,11 +61,9 @@ The MVC for this project will produce markdown files from source YAML files. It
 will include any file in the runbooks source directory matching the wildcard
 <code>*.yml</code>.
 
-<pre class="prettyprint">
-  <code class="lang-bash">
-  runbook-compiler compile-runbooks [--output-directory=&lt;DIR&gt;] [--output-format=&lt;FORMAT&gt;] [--source-directory=&lt;DIR&gt;]
-  </code>
-</pre>
+```bash
+runbook-compiler compile-runbooks [--output-directory=&lt;DIR&gt;] [--output-format=&lt;FORMAT&gt;] [--source-directory=&lt;DIR&gt;]
+```
 
 <p>
     All parameters are required. There are no default values. This is by design

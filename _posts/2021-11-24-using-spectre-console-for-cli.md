@@ -1,7 +1,7 @@
 ---
 permalink: /posts/9-using-spectre-console-for-cli.html
 title: Using Spectre.Console for CLI
-layout: code
+layout: post
 ---
 
 <p>
@@ -102,22 +102,20 @@ layout: code
     and observe the result.
 </p>
 
-<pre class="prettyprint">
-  <code class="lang-cs">
-    static async Task Main(string[] args) => await BuildCommandLine()
-        .UseHost(_ => Host.CreateDefaultBuilder(),
-            host =>
+```csharp
+static async Task Main(string[] args) => await BuildCommandLine()
+    .UseHost(_ => Host.CreateDefaultBuilder(),
+        host =>
+        {
+            host.ConfigureServices(services =>
             {
-                host.ConfigureServices(services =>
-                {
-                    services.AddSingleton&lt;IGreeter, Greeter&gt;();
-                });
-            })
-        .UseDefaults()
-        .Build()
-        .InvokeAsync(args);
-  </code>
-</pre>
+                services.AddSingleton&lt;IGreeter, Greeter&gt;();
+            });
+        })
+    .UseDefaults()
+    .Build()
+    .InvokeAsync(args);
+```
 
 <p>
     However, I found <a href="https://spectreconsole.net/">Spectre.Console</a>
@@ -137,17 +135,15 @@ layout: code
     DragonFruit!?)
 </p>
 
-<pre class="prettyprint">
-  <code class="lang-cs">
-    var app = new CommandApp();
-    app.Configure(config =>
-    {
-        config.AddCommand&lt;AddCommand&gt;("add");
-        config.AddCommand&lt;CommitCommand&gt;("commit");
-        config.AddCommand&lt;RebaseCommand&gt;("rebase");
-    });
-  </code>
-</pre>
+```csharp
+var app = new CommandApp();
+app.Configure(config =>
+{
+    config.AddCommand&lt;AddCommand&gt;("add");
+    config.AddCommand&lt;CommitCommand&gt;("commit");
+    config.AddCommand&lt;RebaseCommand&gt;("rebase");
+});
+```
 
 <p>
     Spectre also provides way better screen handling. The progress bar, which
@@ -169,6 +165,3 @@ layout: code
     Frankly, there is not a lot to complain about. I have just begun working
     with this library, and I am enjoying it so far.
 </p>
-
-<a href="../index.html">&lt; back</a>
-<p></p>

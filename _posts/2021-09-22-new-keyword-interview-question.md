@@ -1,6 +1,6 @@
 ---
 permalink: /posts/2-new-keyword-interview-question.html
-layout: code
+layout: post
 title: New Keyword Interview Question
 ---
 <p>
@@ -59,23 +59,21 @@ title: New Keyword Interview Question
   documented <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/new-operator">here</a>.
 </p>
 
-<pre class="prettyprint">
-  <code class="lang-cs">
-    // object
-    var str = new StringBuilder();
-    str.Append("new operator");
+```csharp
+// object
+var str = new StringBuilder();
+str.Append("new operator");
 
-    // array
-    var newTypes = new int[3];
-    newTypes[0] = 1;
-    newTypes[1] = 2;
-    newTypes[2] = 3;
+// array
+var newTypes = new int[3];
+newTypes[0] = 1;
+newTypes[1] = 2;
+newTypes[2] = 3;
 
-    // anonymous
-    var a = new { Text = "anonymous object" };
-    Console.WriteLine($"{a.Text}");
-  </code>
-</pre>
+// anonymous
+var a = new { Text = "anonymous object" };
+Console.WriteLine($"{a.Text}");
+```
 
 <p>
   Someone who has programmed C# professionally, for any length of
@@ -93,20 +91,18 @@ title: New Keyword Interview Question
   documented <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/constraints-on-type-parameters">here</a>.
 </p>
 
-<pre class="prettyprint">
-  <code class="lang-cs">
-    // constraint
-    public class Factory&lt;T&gt; where T : new()
-    {
-      public T Create()
-      {
-        var o = new T();
-        // initialize 'o' with common params
-        return o;
-      }
-    }
-  </code>
-</pre>
+```csharp
+// constraint
+public class Factory&lt;T&gt; where T : new()
+{
+  public T Create()
+  {
+    var o = new T();
+    // initialize 'o' with common params
+    return o;
+  }
+}
+```
 
 <p>
   Experience has shown that the new constraint usage is usually
@@ -134,22 +130,20 @@ title: New Keyword Interview Question
   documented <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/new-modifier">here</a>.
 </p>
 
-<pre class="prettyprint">
-  <code class="lang-cs">
-    // modifier
-    public class BaseClass
-    {
-      public string Name { get; } = "Base";
-    }
+```csharp
+// modifier
+public class BaseClass
+{
+    public string Name { get; } = "Base";
+}
 
-    public class DerivedClass : BaseClass
-    {
-      public new string Name { get; } = "Derived";
-      // just change the name b/c they really are 2 different members
-      public string Name2 { get; } = "Derived";
-    }
-  </code>
-</pre>
+public class DerivedClass : BaseClass
+{
+    public new string Name { get; } = "Derived";
+    // just change the name b/c they really are 2 different members
+    public string Name2 { get; } = "Derived";
+}
+```
 
 <p class="fst-italic">
   Is <code>Name2</code> a properly named member? Depending upon your
@@ -157,4 +151,3 @@ title: New Keyword Interview Question
   yourself using that you may just want to consider using
   the <code>new</code> modified.
 </p>
-
