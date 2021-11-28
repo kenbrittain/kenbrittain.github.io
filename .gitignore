@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,emacs,webstorm
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,emacs,webstorm
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,emacs,webstorm,jekyll
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,emacs,webstorm,jekyll
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
@@ -52,6 +52,12 @@ flycheck_*.el
 # network security
 /network-security.data
 
+
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 
 ### VisualStudioCode ###
 .vscode/*
@@ -178,4 +184,4 @@ fabric.properties
 # https://plugins.jetbrains.com/plugin/12206-codestream
 .idea/codestream.xml
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,emacs,webstorm
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,emacs,webstorm,jekyll
