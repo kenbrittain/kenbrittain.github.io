@@ -6,17 +6,15 @@ layout: post
 This post is my notes from reading the book [Bull’s Eye: The Power of Focus]
 [bullseye] by Brian Tracy. They had been sitting in my 3-ring binder for the
 past seven years. This book has a lot in common with another Brian Tracy book
-called [Goals!: How to Get Everything You Want -- Faster Than You Ever 
-Thought Possible][goals].
-
-_Goals!_ was published in 2010 and _Bull’s Eye_ in 2015. I read _Bull’s Eye_ 
-first and while I liked _Goals!_ it covered the same territory. The author
-might disagree, but my notes are the same.
+called [Goals!: How to Get Everything You Want -- Faster Than You Ever Thought Possible][goals]
+. _Goals!_ was published in 2010 and _Bull’s Eye_ in 2015. I read _Bull’s 
+Eye_ first and while I liked _Goals!_ it covered the same territory. The 
+author might disagree, but my notes are the same.
 
 I really do like reading Brian Tracy a lot. I have over seven of his books 
 in my Kindle library and have given numerous copies of [Eat That Frog!: 21 
 Great Ways to Stop Procrastinating and Get More Done in Less Time][frog] 
-away as gifts (and I use that work lightly). His books tend to repeat a lot of
+away as gifts (and I use that word lightly). His books tend to repeat a lot of
 his ideas, but sometimes it is good to be told the truth again.
 
 ## Clarity, Focus, and Concentration
