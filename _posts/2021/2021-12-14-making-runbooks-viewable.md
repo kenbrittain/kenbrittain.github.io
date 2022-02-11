@@ -123,7 +123,7 @@ helps generate money. This money is then used to pay your salary. The less time
 you spend moving your runbooks, and other documentation around, the more time
 you have to spend writing software.
 
-[1]:[/posts/6-yaml-runbooks.html]
-[2]:[/posts/13-writing-a-runbook.html]
-[3]:[https://www.atlassian.com/software/confluence]
-[4]:[https://hjson.github.io/]
+[1]:/posts/6-yaml-runbooks.html
+[2]:/posts/13-writing-a-runbook.html
+[3]:https://www.atlassian.com/software/confluence
+[4]:https://hjson.github.io/
