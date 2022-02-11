@@ -57,7 +57,7 @@ runbook-compiler compile-runbooks [--output-directory=&lt;DIR&gt;] [--output-for
 All parameters are required. There are no default values. This is by design as
 it is better to get an error than have implied behaviour determine a pipeline
 decision. In this case, that would be directory names, etc. By forcing the
-parameters you can support any crazy naming scheme a developement team dreams
+parameters you can support any crazy naming scheme a development team dreams
 up. No requirements from the tool makes it a better tool.
 
 <table>
