@@ -4,7 +4,7 @@ title: Runbook Compiler
 layout: post
 ---
 
-In this [post](2021-10-30-yaml-runbooks.md) I recommended storing your runbooks
+In this [post](/posts/6-yaml-runbooks.html) I recommended storing your runbooks
 in the YAML format. The idea was to keep the system documentation, and runbooks
 are a form of system documentation, in a developer friendly format. This simple
 step would enable document changes to be committed along with the source code
@@ -16,12 +16,12 @@ call the program the runbook-compiler. The compiler will process the YAML
 documents into an object model that can be used to generate individual and
 summary documents.
 
-    Think along the lines of a static website generator but for runbooks. I
-    toyed with the idea of using Jekyll for this project but quickly decided I
-    wanted a single executable distribution model. After having built many CI/CD
-    pipelines, on virtual machines, in containers, and even on physical machines,
-    actually having a single executable to perform an operation was, in a word,
-    heaven.
+> Think along the lines of a static website generator but for runbooks. I
+> toyed with the idea of using Jekyll for this project but quickly decided I
+> wanted a single executable distribution model. After having built many 
+> CI/CD pipelines, on virtual machines, in containers, and even on 
+> physical machines, actually having a single executable to perform an 
+> operation was, in a word, heaven.
 
 ## Markdown
 
@@ -38,11 +38,10 @@ library. You can find all the supported patterns defined
 <a href="https://docs.microsoft.com/en-us/dotnet/core/extensions/file-globbing#pattern-formats">
 here</a>:
 
-
-    The goal of the initial implementation is to produce Markdown files. This
-    was chosen was the minimum viable product because having a collection of
-    Markdown runbooks is easily accessible, and should be readable by any
-    technical person.
+> The goal of the initial implementation is to produce Markdown files.
+> This was chosen was the minimum viable product because having a collection of
+> Markdown runbooks is easily accessible, and should be readable by any
+> technical person.
 
 ## Minimum Viable Compiler
 
