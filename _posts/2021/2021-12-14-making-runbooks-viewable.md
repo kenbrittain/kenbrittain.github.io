@@ -5,9 +5,9 @@ layout: post
 ---
 
 Runbooks should be written by the developers building the system. Keeping them
-close to the development process is [recommended](1). Runbooks should also be
+close to the development process is [recommended][1]. Runbooks should also be
 read, but will most likely only be scanned, so a standard format
-is [recommended](2). Finally, runbooks should also be viewable wherever they are
+is [recommended][2]. Finally, runbooks should also be viewable wherever they are
 needed.
 
 Writing your runbooks in markdown is a step toward getting them viewable. It
@@ -33,7 +33,7 @@ writing documents. A runbook, however, while a form of system documentation, is
 not to be considered a document similar to Word or even a wiki page.
 
 People usually do maintain their runbooks in some form of document based
-management system. [Atlassian Confluence](3) comes to mind as a fairly popular
+management system. [Atlassian Confluence][3] comes to mind as a fairly popular
 one. The issue with maintaining a runbook in a document management system, is
 that it treats the runbook as a document. The runbook is not a document but
 content. The content is dedicated to solving a system problem. It is not meant
