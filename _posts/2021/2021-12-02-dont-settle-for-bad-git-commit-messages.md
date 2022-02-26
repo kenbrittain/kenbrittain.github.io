@@ -59,7 +59,7 @@ separated from the description by a blank line when editing.
 
 Here is an example of what I am trying to go for:
 
-![Good Message](/assets/img/github-commit-message-good.png "Good Commit 
+![Good Message](/assets/img/11-github-commit-message-good.png "Good Commit 
 Message")
 
 ## The Bad
