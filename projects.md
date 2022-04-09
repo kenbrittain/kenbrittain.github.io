@@ -14,3 +14,7 @@ This is a collection of the projects that I have created or found interesting en
 
 * [Spectre.Console](https://github.com/spectreconsole/spectre.console) - command line argument processing
 * [System.IO.Abstractions](https://github.com/TestableIO/System.IO.Abstractions) - unit testing for System.IO
+
+## Starting
+
+* [Fish](fish.html) - catalog and rank Fish music
