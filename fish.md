@@ -1,8 +1,9 @@
 ---
 title: Fish
 layout: page
-
 ---
+
+This project is to catalog and rank of Fish's music.
 
 [Fish Music](https://fishmusic.scot/)
 
