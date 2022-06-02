@@ -5,7 +5,15 @@ layout: page
 
 Books used for reference and knowledge.
 
-<!-- Chicao Style Bibliographies -->
-{% for book in site.data.books %}
-* {{book.author}} *{{book.title}}*. {{book.city}}: {{book.publisher}}, {{book.year}}. [Amazon]({{book.amazon}})
+## Programming
+
+{% assign books = site.data.books.programming | sort: "title" %}
+{% include chicago.html %}
+
+## Business
+
+{% assign books = site.data.books.business | sort: "title" %}
+{% for book in books %}
+* {{book.author}} *{{book.title}}*. {{book.city}}: {{book.publisher}}, {{book.year}}. [{{book.link}}]({{book.url}})
 {% endfor %}
+ 
