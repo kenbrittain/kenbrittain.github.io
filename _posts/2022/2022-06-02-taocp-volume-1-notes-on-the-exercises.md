@@ -1,5 +1,5 @@
 ---
-permalink: /posts/38-taocp-volume-1-notes-on-the-exercises.html
+permalink: /posts/35-taocp-volume-1-notes-on-the-exercises.html
 title: "TAOCP: Volume 1, Notes on the exercises"
 layout: post
 ---
