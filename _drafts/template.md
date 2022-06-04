@@ -4,3 +4,11 @@ title: Title
 layout: post
 ---
 
+Headline
+
+Introduction
+
+Main Points
+
+Conclusion
+
