@@ -11,3 +11,4 @@ These pages contains notes and things I want to remember. It is more than bookma
 * [Programming](programming.html) - languages and libraries
 * [SEO](seo.html) - all things SEO
 * [Web](web.html) - links, tools, and web related technology
+* [Writing](writing.html) - online and offline
