@@ -8,4 +8,4 @@ These pages contains notes and things I want to remember. It is more than bookma
 * [Business](business.html)
 * [Programming](programming.html)
 * [SEO](seo.html)
-
+* [Web](web.html)
