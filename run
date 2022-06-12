@@ -1,2 +1,2 @@
 #!/bin/sh
-jekyll serve --watch --future --draft
+jekyll serve --watch

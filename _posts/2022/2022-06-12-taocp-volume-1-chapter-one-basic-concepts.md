@@ -1,5 +1,5 @@
 ---
-permalink: /posts/40-taocp-volume1-chapter1-basic-concepts-algorithms.html
+permalink: /posts/36-taocp-volume1-chapter1-basic-concepts-algorithms.html
 title: "TAOCP: Volume 1, Chapter 1 - Basic Concepts, 1.1 Algorithms"
 layout: taocp
 tag: taocp
