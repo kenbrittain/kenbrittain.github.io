@@ -6,5 +6,9 @@ layout: default
 
 {{ content }}
 
+{% if page.back %}
+<a href="{{ page.back }}">&lt; back</a>
+{% else %}
 <a href="/index.html">&lt; back</a>
+{% endif %}
 <p></p>
