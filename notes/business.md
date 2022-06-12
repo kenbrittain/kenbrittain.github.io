@@ -1,5 +1,5 @@
 ---
-title: Business > YAML
+title: Notes > Business
 layout: notes
 back: "/notes/index.html"
 ---
