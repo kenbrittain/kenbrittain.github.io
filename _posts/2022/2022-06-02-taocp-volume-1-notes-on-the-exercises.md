@@ -7,7 +7,7 @@ tag: taocp
 
 Starting *The Art of Computer Programming* and the exercises have a flow chart. There are 18 steps detailed in the text and it reads like a use case document. I have so many questions.
 
-![Procedure for Reading This Set of Books](/assets/img/38-taocp-notes-on-the-exercises.jpg)
+![Procedure for Reading This Set of Books](/assets/img/35-taocp-notes-on-the-exercises.jpg)
 
 Step #2 says "Read the Notes on the Exercises" so I will be giving that a try. I am sure this has meaning. I am sure I need to read it. I am more concerned with the *Summary of Codes* used to describe the exercises themselves.
 
