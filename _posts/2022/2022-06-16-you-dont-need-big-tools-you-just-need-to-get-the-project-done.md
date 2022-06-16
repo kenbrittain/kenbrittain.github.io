@@ -20,7 +20,7 @@ In the beginning it feels good because it is familiar not because you really nee
 
 Here is the abandoned roadmap view for my project. It has not been updated in quite some time. Why? I don't need it. The feature we are talking about can be tracked using pen & paper (fountain pen of course - [LAMY Safari][lamy] to be specific). The project could be tracked using a simple markdown file if I wanted. Originally I did not want to because I was a software engineers. Software engineers use [Jira][jira].
 
-![Runbook Compiler Roadmap][/assets/img/37-jira-roadmap.png]
+![Runbook Compiler Roadmap](/assets/img/37-jira-roadmap.png)
 
 Do I really need a backlog? No. I need a place to keep track of bugs. If you are using [GitHub][gh] or [GitLab][gl] then you will already have an issue tracker. Just use that. Keep you issues close to your repository and forget about [Jira][jira] for this project.
 
