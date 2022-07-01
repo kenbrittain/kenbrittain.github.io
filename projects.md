@@ -7,8 +7,7 @@ This is a collection of the projects that I have created or found interesting en
 
 ## Owner
 
-* [runbook-compiler](https://github.com/kenbrittain/runbook-compiler) - the runbook compiler project repository</li>
-* [runbook-docs](https://github.com/kenbrittain/runbook-docs) - the runbook compiler project docs
+* [runbooks](https://github.com/kenbrittain/runbooks) - the runbook compiler monorepo (project+library+docs)
 
 ## Following
 
