@@ -3,31 +3,29 @@ title: Fish
 layout: page
 ---
 
-This project is to catalog and rank of Fish's music.
-
-[Fish Music](https://fishmusic.scot/)
+This is the music that I listened to after Fish announced his final album. I might get grief for including [Internal Exile][exile] and [Suits][suits] so high in this list but I cannot get those out of my rotation. I have included some of the Marillion because, let's face it, he was voice of that band, but his solo music shines.
 
 | Title                                         |  Type  | Year |
 | :-------------------------------------------- | :----: | :--: |
-| [Script for a Jester's Tear][script]          | Studio | 1983 |
-| [Fugazi][fugazi]                              | Studio | 1984 |
+| [Sunsets on Empire][sunsets]                  | Studio | 1997 |
+| [Field of Crows][crows]                       | Studio | 2004 |
+| [Internal Exile][exile]                       | Studio | 1991 |
+| [Suits][suits]                                | Studio | 1994 |
+| [A Feast of Consequences][feast]              | Studio | 2013 |
+| [The Moveable Feast European Tour][feasttour] |  Live  | 2016 |
+| [Fellini Days][fellini]                       | Studio | 2001 |
+| Gone Fishing Leamington Spa                   |  Live  | 2013 |
+| [13th Star][star]                             | Studio | 2007 |
+| [Weltschmerz][weltschmerz]                    | Studio | 2020 |
+| [Vigil in a Wilderness of Mirrors][vigil]     | Studio | 1990 |
+| [Farewell To Childhood][farewell]             |  Live  | 2017 |
 | [Misplaced Childhood][childhood]              | Studio | 1985 |
 | [Clutching at Straws][straws]                 | Studio | 1987 |
-| [Vigil in a Wilderness of Mirrors][vigil]     | Studio | 1990 |
-| [Internal Exile][exile]                       | Studio | 1991 |
-| [Songs from the Mirror][mirror]               | Studio | 1993 |
-| [Suits][suits]                                | Studio | 1994 |
-| [Sunsets on Empire][sunsets]                  | Studio | 1997 |
 | [Raingods with Zippos][raingods]              | Studio | 1999 |
-| [Fellini Days][fellini]                       | Studio | 2001 |
-| [Field of Crows][crows]                       | Studio | 2004 |
-| [13th Star][star]                             | Studio | 2007 |
-| [A Feast of Consequences][feast]              | Studio | 2013 |
-| Gone Fishing                                  |  Live  | 2013 |
-| [The Moveable Feast European Tour][feasttour] |  Live  | 2016 |
-| [Farewell To Childhood][farewell]             |  Live  | 2017 |
-| [Weltschmerz][weltschmerz]                    | Studio | 2020 |
 | [The Last Straw][laststraw]                   |  Live  | 2022 |
+| [Script for a Jester's Tear][script]          | Studio | 1983 |
+| [Fugazi][fugazi]                              | Studio | 1984 |
+| [Songs from the Mirror][mirror]               | Studio | 1993 |
 
 
 
