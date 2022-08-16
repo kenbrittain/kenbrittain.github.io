@@ -1,9 +1,14 @@
 ---
 title: Fish
 layout: page
+back: "/music/index.html"
 ---
 
-This is the music that I listened to after Fish announced his final album. I might get grief for including [Internal Exile][exile] and [Suits][suits] so high in this list but I cannot get those out of my rotation. I have included some of the Marillion because, let's face it, he was voice of that band, but his solo music shines.
+This is the music that I listened to after Fish announced his final
+album. I might get grief for including [Internal Exile][exile] and
+[Suits][suits] so high in this list but I cannot get those out of my
+rotation. I have included some of the Marillion because, let's face
+it, he was voice of that band, but his solo music shines.
 
 | Title                                         |  Type  | Year |
 | :-------------------------------------------- | :----: | :--: |
@@ -26,8 +31,6 @@ This is the music that I listened to after Fish announced his final album. I mig
 | [Script for a Jester's Tear][script]          | Studio | 1983 |
 | [Fugazi][fugazi]                              | Studio | 1984 |
 | [Songs from the Mirror][mirror]               | Studio | 1993 |
-
-
 
 [script]:https://en.wikipedia.org/wiki/Script_for_a_Jester%27s_Tear
 [fugazi]:https://en.wikipedia.org/wiki/Fugazi_(album)

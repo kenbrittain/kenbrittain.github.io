@@ -1,6 +1,7 @@
 ---
 title: Peter Gabriel
 layout: page
+back: "/music/index.html"
 ---
 
 I listened to Peter Gabriel exclusively from March 2020 until January 2021.

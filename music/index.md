@@ -13,12 +13,12 @@ Every quarter they get to pick an artist and I listen to that artist ... exclusi
 
 I will always *appreciate* Fish but will be expanding that box. I'm sure he would approve.
 
-| Artist                             | Year | Q1   | Q2   | Q3   | Q4   |
-| ---------------------------------- | ---- | ---- | ---- | ---- | ---- |
-| [Peter Gabriel](petergabriel.html) | 2020 | X    | X    | X    |      |
-| [Fish](fish.html)                  | 2020 |      |      |      | X    |
-|                                    | 2021 | X    | X    | X    | X    |
-|                                    | 2022 | X    | X    |      |      |
-| Michael Franti & Spearhead         | 2022 |      |      | X    |      |
-| ?                                  | 2022 |      |      |      | X    |
+| Artist                                             | Year | Q1 | Q2 | Q3 | Q4 |
+|:---------------------------------------------------|:-----|:--:|:--:|:--:|:--:|
+| [Peter Gabriel](petergabriel.html)                 | 2020 | X  | X  | X  |    |
+| [Fish](fish.html)                                  | 2020 |    |    |    | X  |
+| [Fish](fish.html)                                  | 2021 | X  | X  | X  | X  |
+| [Fish](fish.html)                                  | 2022 | X  | X  |    |    |
+| [Michael Franti & Spearhead](frantispearhead.html) | 2022 |    |    | X  |    |
+| ?                                                  | 2022 |    |    |    | X  |
 
