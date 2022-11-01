@@ -1,6 +1,6 @@
 ---
 permalink: /posts/38-taocp-volume1-chapter1-basic-concepts-mathematical-induction.html
-title: "TAOCP: Volume 1, Chapter 1 - Basic Concepts, 1.2 Mathematical Induction"
+title: "TAOCP: Volume 1, Chapter 1 - Basic Concepts, 1.2.1 Mathematical Induction"
 layout: taocp
 tag: taocp
 summary: |
