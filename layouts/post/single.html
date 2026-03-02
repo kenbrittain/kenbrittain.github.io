@@ -1,0 +1,14 @@
+{{ define "main" }}
+<blockquote>
+    <em>
+        {{ .Date.Format "02 Jan 06" }}
+        ({{ .ReadingTime }} min read)
+    </em>
+</blockquote>
+
+<div class="content">
+    {{ .Content }}
+</div>
+
+<a href="/">&lt; back</a>
+{{ end }}

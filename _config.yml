@@ -1,9 +1,0 @@
-title: Code + DevOps
-author: Ken Brittain
-url: https://kenbrittain.github.io
-
-## use gy GitHub Pages for Syntax Highlighting
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge

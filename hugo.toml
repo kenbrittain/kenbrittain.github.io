@@ -1,0 +1,11 @@
+baseURL = 'https://kenbrittain.com'
+languageCode = 'en-us'
+title = 'Code + DevOps'
+rssLimit = 20
+disableKinds = ['taxonomy', 'term', 'section']
+
+[params]
+  description = 'This blog is the place where I record things that are of interest to me and me alone.'
+  siteUrl = 'https://kenbrittain.com'
+  siteTitle = 'Code + DevOps = Ken Brittain'
+  siteDescription = 'This blog is the place where I record things that are of interest to me and me alone. If you find them useful congratulations there is no charge.'

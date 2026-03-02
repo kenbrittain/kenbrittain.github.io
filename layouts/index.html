@@ -1,0 +1,16 @@
+{{ define "heading" }}Code + DevOps{{ end }}
+
+{{ define "main" }}
+<p><a href="/about">About</a> &middot; <a href="/projects">Projects</a> &middot; <a href="/index.xml">RSS</a></p>
+
+{{ $posts := where .Site.RegularPages "Section" "post" }}
+{{ if not $posts }}
+<p>No blog posts found. Create your first post in the <code>content/post/</code> directory!</p>
+{{ else }}
+<ul>
+{{ range ($posts.ByParam "postindex").Reverse }}
+<li>[{{ .Params.postindex }}] <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+{{ end }}
+</ul>
+{{ end }}
+{{ end }}
