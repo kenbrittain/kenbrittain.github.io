@@ -44,7 +44,7 @@ When it clicked that having tickets closed is going to be good lead measure for 
 Now, if the ticket is specific enough, and small enough, it serves as the perfect guide. I can watch myself, and my team mates, approaching completion of a feature or project in real time. The whirlwind of corporate life will alway be present in everything that we do, but now we have automatic, and reliable way to let us know if we are on track. In the 4 Disciplines they call them scorecards. Our is [Jira][jira] and it is automatic. You just have to remember to close your tickets.
 
 [4d]: https://www.amazon.com/Disciplines-Execution-Expanded-Achieving-Important-ebook/dp/B08BZW8NGC/
-[25]: https://kenbrittain.com/posts/25-tracking-a-daily-coding-habit-with-the-github-contribution-graph.html
+[25]: https://kenbrittain.com/post/25/tracking-a-daily-coding-habit-with-the-github-contribution-graph
 [disc]: https://www.indeed.com/career-advice/career-development/disc-personality-types
 [jira]: https://www.atlassian.com/software/jira
 

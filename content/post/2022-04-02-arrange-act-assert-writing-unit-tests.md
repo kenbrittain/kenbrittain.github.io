@@ -133,7 +133,7 @@ I have read numerous posts and comments on the value of leaving in the comments:
 
 If the unit test is small enough then I will remove them (most of the time). As the tests grow I tend to leave them in as it helps keep the code organized. The sample class unit tests would not have the comment in real life. I have removed them from some methods to give the look and feel of a real test ;) 
 
-[10]:https://kenbrittain.com/posts/10-unit-testing-system-io.html
+[10]:https://kenbrittain.com/post/10/unit-testing-system-io
 [nsub]:https://nsubstitute.github.io/
 [moq]:https://github.com/Moq
 

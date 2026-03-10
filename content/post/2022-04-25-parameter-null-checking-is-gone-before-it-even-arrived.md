@@ -16,7 +16,7 @@ My point, in my [last post][post], on the *proposed* feature was that Microsoft 
 It was gone before it even arrived.
 
 [ldm]:https://github.com/dotnet/csharplang/blob/main/meetings/2022/LDM-2022-04-13.md#parameter-null-checkin
-[post]:https://kenbrittain.com/posts/31-csharp-simplified-parameter-null-checks.html
+[post]:https://kenbrittain.com/post/31/csharp-simplified-parameter-null-checks
 
 
 

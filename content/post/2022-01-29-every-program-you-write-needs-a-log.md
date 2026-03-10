@@ -75,5 +75,5 @@ Using default configuration file => /home/kenbr/config/mighty.config
 Completed successfully!
 ```
 
-[1]:https://kenbrittain.com/posts/18-show-me-with-temporary-variables.html
-[2]:https://kenbrittain.com/posts/19-initialize-members-together.html
+[1]:https://kenbrittain.com/post/18/show-me-with-temporary-variables
+[2]:https://kenbrittain.com/post/19/initialize-members-together
