@@ -5,6 +5,7 @@ rssLimit = 20
 disableKinds = ['taxonomy', 'term', 'section']
 
 [params]
+  author = 'Ken Brittain'
   description = 'This blog is the place where I record things that are of interest to me and me alone.'
   siteUrl = 'https://kenbrittain.com'
   siteTitle = 'Code + DevOps = Ken Brittain'

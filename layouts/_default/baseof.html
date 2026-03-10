@@ -5,12 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta charset="UTF-8">
 
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+
+    {{- $description := .Site.Params.description }}
+    {{- if .IsHome }}{{ $description = .Site.Params.siteDescription }}{{ end }}
+    {{- if .Description }}{{ $description = .Description }}{{ end }}
+
+    <meta name="description" content="{{ $description }}">
+    <meta name="author" content="{{ .Site.Params.author }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="/index.xml">
+
+    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+    <meta property="og:description" content="{{ $description }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+    <meta property="og:site_name" content="{{ .Site.Params.siteTitle }}">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+    <meta name="twitter:description" content="{{ $description }}">
+
+    {{ if not .IsHome }}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": {{ .Title | jsonify }},
+      "datePublished": "{{ .Date.Format "2006-01-02" }}",
+      "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+      "author": {
+        "@type": "Person",
+        "name": {{ .Site.Params.author | jsonify }}
+      },
+      "url": "{{ .Permalink }}",
+      "description": {{ $description | jsonify }}
+    }
+    </script>
+    {{ end }}
+
     <link href="/css/normalize.css" rel="stylesheet">
     <link href="/css/terminal.min.css" rel="stylesheet">
 
     <script src="/js/highlight.min.js"></script>
-
-    <title>Code + DevOps</title>
 </head>
 
 <body class="terminal container" style="overflow-y: scroll; scrollbar-gutter: stable;">
