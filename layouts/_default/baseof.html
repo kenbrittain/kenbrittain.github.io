@@ -18,7 +18,9 @@
 
     {{ block "main" . }}{{ end }}
 
+    {{ if hugo.IsProduction }}
     <script defer src="https://loglesk.io/js/script.js" data-key="r0yye"></script>
+    {{ end }}
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
