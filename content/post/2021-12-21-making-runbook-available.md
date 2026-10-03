@@ -3,6 +3,7 @@ title: Making Runbooks Available
 date: 2021-12-21
 postindex: 16
 url: /post/16/making-runbook-available
+categories: ['DevOps']
 ---
 
 Your runbooks need to exist outside your normal everyday systems. It is fine to

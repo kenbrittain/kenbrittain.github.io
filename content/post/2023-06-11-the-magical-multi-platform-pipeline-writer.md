@@ -3,6 +3,7 @@ title: The Magical Multi-Platform Pipeline Writer
 date: 2023-06-11
 postindex: 63
 url: /post/63/the-magical-multi-platform-pipeline-writer
+categories: ['DevOps', 'Engineering']
 ---
 
 I have seen enough build pipelines to know that they are all the same. The syntax is different but concepts are the same. This makes sense as each vendor is trying to do the same things: automate builds.

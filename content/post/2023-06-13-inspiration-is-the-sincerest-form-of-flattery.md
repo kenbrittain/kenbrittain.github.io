@@ -3,6 +3,7 @@ title: Inspiration is the Sincerest Form of Flattery
 date: 2023-06-13
 postindex: 64
 url: /post/64/inspiration-is-the-sincerest-form-of-flattery
+categories: ['Engineering']
 ---
 
 When you are creating a new library you a design in mind. Sometimes that design does not appear when coded. The code is cumbersome to use. Nothing flows right and requires a lot this and that special methods to make it all right. It is a mess.

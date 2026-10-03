@@ -3,6 +3,7 @@ title: Leveling Up on Linq
 date: 2023-06-23
 postindex: 75
 url: /post/75/leveling-up-on-linq
+categories: ['C#']
 ---
 
 I've never liked Linq. There is something about writing code like a SQL statement that rub me the wrong way. This makes sense because I not a fan of SQL either. So you can see how I never took a shine to Linq and started sprinkling it throughout my code.

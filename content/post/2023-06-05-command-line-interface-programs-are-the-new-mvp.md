@@ -3,6 +3,7 @@ title: Command Line Interface Programs are the new MVP
 date: 2023-06-05
 postindex: 57
 url: /post/57/command-line-interface-programs-are-the-new-mvp
+categories: ['Engineering']
 ---
 
 The idea of an MVP is to create a product containing only the minimum amount of functionality to make it viable for the user. The limitations are expressed in the name itself.

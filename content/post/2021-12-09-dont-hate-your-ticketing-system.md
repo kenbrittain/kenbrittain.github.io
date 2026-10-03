@@ -3,6 +3,7 @@ title: Don't Hate Your Ticketing System
 date: 2021-12-09
 postindex: 14
 url: /post/14/dont-hate-your-ticketing-system
+categories: ['DevOps', 'Productivity']
 ---
 
 The traditional methodology of software deployment, still alive and well in

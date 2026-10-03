@@ -3,6 +3,7 @@ title: "Bull's Eye: The Power of Focus"
 date: 2022-01-08
 postindex: 17
 url: /post/17/bulls-eye-the-power-of-focus
+categories: ['Productivity']
 ---
 
 This post is my notes from reading the book [Bull’s Eye: The Power of Focus]

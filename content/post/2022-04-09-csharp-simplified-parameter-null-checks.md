@@ -3,6 +3,7 @@ title: C# 11 Simplified Parameter Null Checks
 date: 2022-04-09
 postindex: 31
 url: /post/31/csharp-simplified-parameter-null-checks
+categories: ['C#']
 ---
 
 I learned to program first C and then C++. I wrote Windows 3.1 applications. Windows applications required a lot of code to get them running. 

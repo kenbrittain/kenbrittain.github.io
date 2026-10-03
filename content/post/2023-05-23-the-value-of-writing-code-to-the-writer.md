@@ -3,6 +3,7 @@ title: The Value of Writing Code to the Writer
 date: 2023-05-23
 postindex: 44
 url: /post/44/the-value-of-writing-code-to-the-writer
+categories: ['Engineering', 'Essays']
 ---
 
 Sometimes you write code for yourself. Nobody else will look at it. Nobody will review it. It sure isn't going to be shipped as part of a product.

@@ -3,6 +3,7 @@ title: Using SQLite as a Read-Only Replica
 date: 2023-05-26
 postindex: 47
 url: /post/47/using-sqlite-as-a-read-only-replica
+categories: ['Engineering']
 ---
 
 I am looking into using [SQLite](https://sqlite.org/index.html) as a read-only database.

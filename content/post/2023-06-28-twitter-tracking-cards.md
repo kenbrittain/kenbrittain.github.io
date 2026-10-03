@@ -3,6 +3,7 @@ title: Twitter Tracking Cards
 date: 2023-06-28
 postindex: 80
 url: /post/80/twitter-tracking-cards
+categories: ['Productivity', 'Essays']
 ---
 
 For the past 30 days, in addition to writing a 250 word posts, I also tracked my Twitter engagement. The results are what you would expect.

@@ -3,6 +3,9 @@
     <em>
         {{ .Date.Format "02 Jan 06" }}
         ({{ .ReadingTime }} min read)
+        {{ with .Params.categories }}
+        &middot; [ {{ range $idx, $cat := . }}{{ if $idx }}, {{ end }}<a href="/categories/{{ $cat | urlize }}">{{ $cat }}</a>{{ end }} ]
+        {{ end }}
     </em>
 </blockquote>
 

@@ -3,6 +3,7 @@ title: DevOps has a Problem and Your Company is not Going to Fix It
 date: 2023-05-28
 postindex: 49
 url: /post/49/devops-has-a-problem-and-your-company-is-not-going-to-fix-it
+categories: ['DevOps']
 ---
 
 The biggest problem within the DevOps space is that companies create DevOps teams to build and maintain the platforms associated with software development. This helps reduce expenditures because they can consolidate licensing and subscriptions.

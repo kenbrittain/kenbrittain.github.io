@@ -3,6 +3,7 @@ title: Conversational UI is not an Optimal Interface for Users
 date: 2023-05-25
 postindex: 46
 url: /post/46/conversational-ui-is-not-an-optimal-interface-for-users
+categories: ['Engineering']
 ---
 
 Have you ever had a discussion with your smart speaker? You know the kind where you end up shouting something awful in frustration because the device doesn't understand what you are asking.

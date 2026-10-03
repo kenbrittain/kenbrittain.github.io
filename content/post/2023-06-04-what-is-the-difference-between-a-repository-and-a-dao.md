@@ -3,6 +3,7 @@ title: What is the Difference Between a Repository and a DAO?
 date: 2023-06-04
 postindex: 56
 url: /post/56/what-is-the-difference-between-a-repository-and-a-dao
+categories: ['Engineering']
 ---
 
 DAO is a term that was active during my J2EE development days. It referred to an interface for accessing data in the database and returning Data Transfer Objects or DTOs. If you had been doing any Java development you had heard the terms DAO and DTO. These patterns are defined in the book "[Patterns of Enterprise Application Architecture](https://www.amazon.com/gp/product/0321127420/ref=as_li_tl)" by Martin Fowler, et al.

@@ -3,6 +3,7 @@ title: Should You Use Parameter Prefixing?
 date: 2022-07-04
 postindex: 39
 url: /post/39/should-you-use-parameter-prefixing
+categories: ['C#', 'Engineering']
 ---
 
 If you have only coded in an IDE then please remember that there was a time when developers actually had to write all of the code, references were in a paperback book, and compile times were a thing.

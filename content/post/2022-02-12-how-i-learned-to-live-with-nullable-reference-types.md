@@ -3,6 +3,7 @@ title: How I Learned to Live with Nullable Reference Types
 date: 2022-02-12
 postindex: 22
 url: /post/22/how-i-learned-to-live-with-nullable-reference-types
+categories: ['C#']
 ---
 
 I hated the nullable reference types feature introduced in C# 8.0 for 

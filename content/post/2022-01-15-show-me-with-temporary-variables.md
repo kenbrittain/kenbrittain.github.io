@@ -3,6 +3,7 @@ title: "Show Me with Temporary Variables (Debug Rule #1)"
 date: 2022-01-15
 postindex: 18
 url: /post/18/show-me-with-temporary-variables
+categories: ['Engineering']
 ---
 
 Interactive debuggers are great. They can show many aspects about your code

@@ -3,6 +3,7 @@ title: Runbooks Document the Failures in Your System
 date: 2022-02-19
 postindex: 23
 url: /post/23/runbooks-document-the-failures-in-your-system
+categories: ['DevOps']
 ---
 
 If you know about a failure in your system and don't fix it does that make your
@@ -51,8 +52,7 @@ particular issue only affects once per month. I already have a job and do not
 want to spend countless amounts of my time, and good will, to fix a once per
 month issue. I am thinking along these lines:
 
-![Xkcd - Is It Worth the Time?](https://imgs.xkcd.
-com/comics/is_it_worth_the_time.png "Is It Worth the Time?")
+![Xkcd - Is It Worth the Time?](https://imgs.xkcd.com/comics/is_it_worth_the_time.png "Is It Worth the Time?")
 
 The *Stay Sassy* post says:
 

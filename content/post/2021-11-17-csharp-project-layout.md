@@ -3,6 +3,7 @@ title: C# Project Layout
 date: 2021-11-17
 postindex: 8
 url: /post/8/csharp-project-layout
+categories: ['C#', 'Engineering']
 ---
 
 <p>

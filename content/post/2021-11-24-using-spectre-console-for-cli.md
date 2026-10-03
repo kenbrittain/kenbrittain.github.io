@@ -3,6 +3,7 @@ title: Using Spectre.Console for CLI
 date: 2021-11-24
 postindex: 9
 url: /post/9/using-spectre-console-for-cli
+categories: ['C#', 'Engineering']
 ---
 
 <p>

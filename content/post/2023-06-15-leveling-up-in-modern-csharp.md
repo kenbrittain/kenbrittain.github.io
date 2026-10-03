@@ -3,6 +3,7 @@ title: Leveling Up in Modern C#
 date: 2023-06-15
 postindex: 66
 url: /post/66/leveling-up-in-modern-csharp
+categories: ['C#']
 ---
 
 I started with C# in the .NET Framework 1.1 days.  

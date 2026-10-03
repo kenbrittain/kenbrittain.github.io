@@ -3,6 +3,7 @@ title: GitHub Pages Hidden Files
 date: 2021-09-28
 postindex: 3
 url: /post/3/github-pages-hidden-files
+categories: ['DevOps']
 ---
 
 <p>
@@ -33,7 +34,7 @@ url: /post/3/github-pages-hidden-files
 </p>
 
 <p>
-    The offical announcement of the feature was made in 2009 on *The GitHub 
+    The official announcement of the feature was made in 2009 on *The GitHub 
     Blog* - <a href="https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/">Bypassing Jekyll on GitHub Pages</a>.
 </p>
 
@@ -42,5 +43,5 @@ url: /post/3/github-pages-hidden-files
 </p>
 <ul>
     <li><a href="https://stackoverflow.com/questions/58699725/how-can-one-get-github-pages-to-serve-dot-files-like-rfc5785s-well-known">How can one get github pages to serve dot files like RFC5785's /.well-known/?</a></li>
-    <li><a href="https://stackoverflow.com/questions/20893913/does-pages-github-com-support-directory-names-with-a-preceeding-dot/20910276">Does pages.github.com support directory names with a preceeding . (dot)?</a></li>
+    <li><a href="https://stackoverflow.com/questions/20893913/does-pages-github-com-support-directory-names-with-a-preceeding-dot/20910276">Does pages.github.com support directory names with a preceding . (dot)?</a></li>
 </ul>

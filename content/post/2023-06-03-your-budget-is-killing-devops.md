@@ -3,6 +3,7 @@ title: Your Budget is Killing DevOps
 date: 2023-06-03
 postindex: 55
 url: /post/55/your-budget-is-killing-devops
+categories: ['DevOps']
 ---
 
 Budgetary reductions forces teams to make choices. Those choices have consequences.

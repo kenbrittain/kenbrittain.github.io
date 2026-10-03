@@ -3,6 +3,7 @@ title: "I've been LARPing as an entrepreneur for the past 2 years"
 date: 2025-06-15
 postindex: 84
 url: /post/84/larping-as-an-entrepreneur
+categories: ['Essays', 'Productivity']
 ---
 
 My last blog post was in July of 2023. That was two (2) years ago. That is a long time ... a really long time ... too long in fact. Frankly, I am embarrassed.

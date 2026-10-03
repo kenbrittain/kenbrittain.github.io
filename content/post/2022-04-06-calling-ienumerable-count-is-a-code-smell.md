@@ -3,6 +3,7 @@ title: Calling IEnumerable.Count() is a Code Smell
 date: 2022-04-06
 postindex: 30
 url: /post/30/calling-ienumerable-count-is-a-code-smell
+categories: ['C#']
 ---
 
 Just because something compiles does not mean it is correct.

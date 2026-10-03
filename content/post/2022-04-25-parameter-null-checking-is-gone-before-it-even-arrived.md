@@ -3,6 +3,7 @@ title: Parameter Null Checking is Gone Before it Even Arrived
 date: 2022-04-25
 postindex: 32
 url: /post/32/parameter-null-checking-is-gone-before-it-even-arrived
+categories: ['C#']
 ---
 
 The *proposed* parameter null checking feature has been removed from C# 11. I never really had the feature so I am not going to miss it. I will miss the idea of having it. 

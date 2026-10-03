@@ -3,6 +3,7 @@ title: "TAOCP: Volume 1, Notes on the exercises"
 date: 2022-06-02
 postindex: 35
 url: /post/35/taocp-volume-1-notes-on-the-exercises
+categories: ['Books']
 ---
 
 Starting *The Art of Computer Programming* and the exercises have a flow chart. There are 18 steps detailed in the text and it reads like a use case document. I have so many questions.

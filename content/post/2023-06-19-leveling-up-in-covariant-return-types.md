@@ -3,6 +3,7 @@ title: Leveling Up in Covariant Return Types
 date: 2023-06-19
 postindex: 71
 url: /post/71/leveling-up-in-covariant-return-types
+categories: ['C#']
 ---
 
 Let's begin with some definitions because this one is confusing (liberated from the original [Microsoft docs](https://learn.microsoft.com/en-us/dotnet/standard/generics/covariance-and-contravariance)).

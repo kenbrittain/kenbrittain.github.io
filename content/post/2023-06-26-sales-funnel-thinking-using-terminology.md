@@ -3,6 +3,7 @@ title: Sales Funnel Thinking Using Terminology
 date: 2023-06-26
 postindex: 78
 url: /post/78/sales-funnel-thinking-using-terminology
+categories: ['Productivity', 'Essays']
 ---
 
 I have been reading about sales funnels. I want to begin some of the marketing efforts now to help when I launch. The new terms for me are TOFU, MOFU, and BOFU. I think they are hilarious. They are however, pretty serious.

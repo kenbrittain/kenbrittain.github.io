@@ -3,6 +3,7 @@ title: Unit Testing System.IO
 date: 2021-11-27
 postindex: 10
 url: /post/10/unit-testing-system-io
+categories: ['C#', 'Testing']
 ---
 
 <p>
@@ -80,7 +81,7 @@ public class DefaultFileWrapper : IFileWrapper
     It is the same for every project that uses the <code>File</code> and
     <code>Directory</code> classes. I am sure there are other classes that
     should get the same treatment, but these two (2) are the biggest culprits
-    in my coding life. While I enjoy coding this particlar pattern does get
+    in my coding life. While I enjoy coding this particular pattern does get
     boring: write code, extract wrapper, write default implementation, and
     repeat (for all things required). After you do this on a few projects you
     begin to contemplate the cost of creating a library to handle this

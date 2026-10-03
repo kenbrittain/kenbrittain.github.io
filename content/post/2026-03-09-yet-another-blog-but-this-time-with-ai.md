@@ -3,6 +3,7 @@ title: Yet Another Blog but this Time with AI
 date: 2026-03-09
 postindex: 86
 url: /post/86/yet-another-blog-but-this-time-with-ai
+categories: ['DevOps', 'Essays']
 ---
 
 Truth be told, this blog does not have AI integrated into it. I used AI to rewrite and remove a custom blog engine and then relaunched. Again.

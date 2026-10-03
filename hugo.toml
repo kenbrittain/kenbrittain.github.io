@@ -1,8 +1,16 @@
 baseURL = 'https://kenbrittain.com'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'Code + DevOps'
 rssLimit = 20
-disableKinds = ['taxonomy', 'term', 'section']
+disableKinds = ['section']
+
+[taxonomies]
+  category = 'categories'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
   author = 'Ken Brittain'

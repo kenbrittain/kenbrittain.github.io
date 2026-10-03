@@ -3,6 +3,7 @@ title: Leveling Up with Target Typed new()
 date: 2023-06-18
 postindex: 70
 url: /post/70/leveling-up-with-target-typed-new
+categories: ['C#']
 ---
 
 I was originally exposed to this language feature when looking at some code published by Microsoft. I don't remember the project and it is not important for this discussion. What is important is that I saw an approximation of this:

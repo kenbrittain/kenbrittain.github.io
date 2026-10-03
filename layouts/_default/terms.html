@@ -1,0 +1,18 @@
+{{ define "heading" }}Categories{{ end }}
+
+{{ define "main" }}
+<p><a href="/about">About</a> &middot; <a href="/categories">Categories</a> &middot; <a href="/projects">Projects</a> &middot; <a href="/index.xml">RSS</a></p>
+
+{{ $categories := .Data.Terms.ByCount }}
+{{ if not $categories }}
+<p>No categories found.</p>
+{{ else }}
+<ul>
+{{ range $categories }}
+<li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
+{{ end }}
+</ul>
+{{ end }}
+
+<a href="/">&lt; back to home</a>
+{{ end }}

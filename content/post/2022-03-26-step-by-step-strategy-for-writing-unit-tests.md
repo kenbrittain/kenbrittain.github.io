@@ -3,6 +3,7 @@ title: "Step-by-Step Strategy for Writing Unit Tests (Part #1)"
 date: 2022-03-26
 postindex: 28
 url: /post/28/step-by-step-strategy-for-writing-unit-tests
+categories: ['Testing', 'C#']
 ---
 
 Stop overthinking about how to write your unit tests.
@@ -84,7 +85,7 @@ To name the file there is a prefix and postfix. The file prefix is the class nam
 This prefix/postfix pattern is used for two (2) reasons:
 
 1.  If you are keeping your tests for a class in a single file, your can use the class name as the prefix to help you identify its contents. By creating, and maintaining, your unit tests in a source file named after the class you can easily located the tests you need. The tests for the `Person` class are located in the file that begin with the prefix `Person`. Also, the unit test files sort the same as the class files. 
-2. The postfix is used to differentiate the unit test file from the actual source file. They are in different projects which presumes different directories. However, some editors will display the path to a source file and some don't. If the path is displayed in the tab (and they are for [Visual Studio Code][vcs] and [JetBrains Rider][rider] at least) the tabs get longer. Longer tabs mean less visible open tabs. I find it easier to have the postfix applied, making the file different names, but keeping the context.
+2. The postfix is used to differentiate the unit test file from the actual source file. They are in different projects which presumes different directories. However, some editors will display the path to a source file and some don't. If the path is displayed in the tab (and they are for [Visual Studio Code][vsc] and [JetBrains Rider][rider] at least) the tabs get longer. Longer tabs mean less visible open tabs. I find it easier to have the postfix applied, making the file different names, but keeping the context.
 
 Finally, copy the code from the *Unit Test Template* and paste its contents into the file. Change up the `namespace` and the class name are you are now ready to start creating your testing plan.
 

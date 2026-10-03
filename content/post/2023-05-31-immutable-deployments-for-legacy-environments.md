@@ -3,6 +3,7 @@ title: Immutable Deployments for Legacy Environments
 date: 2023-05-31
 postindex: 52
 url: /post/52/immutable-deployments-for-legacy-environments
+categories: ['DevOps']
 ---
 
 One of the ideas that stop people from adopting a full-on DevOps mindset of automation is immutability. Immutable deployments are where the contents of the deployment do not change with each deployment.

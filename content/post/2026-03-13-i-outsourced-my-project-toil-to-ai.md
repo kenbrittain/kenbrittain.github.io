@@ -1,12 +1,14 @@
 ---
 title: I Outsourced My Project Toil to AI
+date: 2026-03-13
 postindex: 87
-url: /post/87-i-outsourced-my-project-toil-to-ai
+url: /post/87/i-outsourced-my-project-toil-to-ai
+categories: ['DevOps', 'Essays']
 ---
 
 What is project toil? 
 
-It's the stuff in the middle of a project. The unfun stuff. Wrapping and hoisting interfaces to make 3rd part libraries fit into your programs. It's the glue code required to render a template. It's the stuff that is needed but not really interesting. Toil is the stuff jobs are made of.
+It's the stuff in the middle of a project. The unfun stuff. Wrapping and hoisting interfaces to make 3rd party libraries fit into your programs. It's the glue code required to render a template. It's the stuff that is needed but not really interesting. Toil is the stuff jobs are made of.
 
 I have outsourced the bulk of my project toil to [Claude][CLAUDE]. For this blog, that means updating and converting things to yet another format. I know, I know. I should just chill and let this project be the same for some length of time > **REALLY_SMALL_AMOUNT_OF_TIME**.
 
@@ -31,11 +33,11 @@ That is the toil. You can look at this [post][TOIL] and see what I am talking ab
 
 # Ken for Writing
 
-You can look into this repository and see my [CLAUDE.md][MDFILE] file. The contents of this file will change but right now it setup to work on this repository under Hugo. It has a writing style section. The previous post was an outline when I found it. I used Claude to complete the writing of it. 
+You can look into this repository and see my [CLAUDE.md][MDFILE] file. The contents of this file will change but right now it is setup to work on this repository under Hugo. It has a writing style section. The previous post was an outline when I found it. I used Claude to complete the writing of it. 
 
-What a minute? I know I just said Claude was for the work between the writing ... but I just had to try it. The results ... meh (please see my previous comment about contradictions).
+Wait a minute? I know I just said Claude was for the work between the writing ... but I just had to try it. The results ... meh (please see my previous comment about contradictions).
 
-I will continue to use Claude for all sorts of project toil though. It converted my ASP.NET Core application to a Hugo website in a suprising low amount of prompts. There is more that needs to be done with the content and formatting. I won't be doing that. That is toil.
+I will continue to use Claude for all sorts of project toil though. It converted my ASP.NET Core application to a Hugo website in a surprisingly low amount of prompts. There is more that needs to be done with the content and formatting. I won't be doing that. That is toil.
 
 The writing will still be me.
 

@@ -3,6 +3,7 @@ title: Making Runbooks Viewable
 date: 2021-12-14
 postindex: 15
 url: /post/15/making-runbooks-viewable
+categories: ['DevOps']
 ---
 
 Runbooks should be written by the developers building the system. Keeping them
@@ -73,7 +74,7 @@ We want our runbooks to be a in a machine-readable, or parsable format. For that
 I recommend YAML. You can use XML if you want but the 90s are long gone. The
 format does hold some advantages but being easy to write, as a human, is not one
 of them. JSON could be used as well, but it has some of the same misgiving as 
-XML. If that were not the case then [HSJON][4] would not have been created.
+XML. If that were not the case then [HJSON][4] would not have been created.
 
 The power of using YAML for runbooks comes into play when you want to 
 generate a view of your runbook. By default, all runbooks should be 
@@ -103,7 +104,7 @@ That is ok, we have all done that at some point. We even felt pretty good about
 for a while. Then, the company evolved. This is where your company was either
 purchased, sold, or found an incredible way to save money (on software that is)
 and now requires you to spend an large amount of effort, usually in a short
-amount of time, to move your content to the newm *cheaper*, system. For example,
+amount of time, to move your content to the new, *cheaper*, system. For example,
 the system you used for your documentation is no longer going to be supported,
 and you have 13 weeks to move your content before the system is retired. Move it
 or lose it! This type of evolving happens all the time in larger organizations.
@@ -124,7 +125,7 @@ helps generate money. This money is then used to pay your salary. The less time
 you spend moving your runbooks, and other documentation around, the more time
 you have to spend writing software.
 
-[1]:/posts/6-yaml-runbooks.html
-[2]:/posts/13-writing-a-runbook.html
+[1]:/post/6/yaml-runbooks
+[2]:/post/13/writing-a-runbooks
 [3]:https://www.atlassian.com/software/confluence
 [4]:https://hjson.github.io/

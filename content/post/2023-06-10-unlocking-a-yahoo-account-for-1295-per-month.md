@@ -3,6 +3,7 @@ title: Unlocking a Yahoo Account for $12.95 per Month
 date: 2023-06-10
 postindex: 62
 url: /post/62/unlocking-a-yahoo-account-for-1295-per-month
+categories: ['Essays']
 ---
 
 Much like everyone assumes I do for a living I actually used to fix computers. People would call with issues, drop their machines off, and I would reinstall, update, or remove Windows (usually). It's a grind.

@@ -3,6 +3,7 @@ title: Leveling Up on Local Functions
 date: 2023-06-20
 postindex: 72
 url: /post/72/leveling-up-on-local-functions
+categories: ['C#']
 ---
 
 Local functions are a scoping trick to prevent other methods from calling your function. They are like special case private methods as they cannot have any other scope applied.

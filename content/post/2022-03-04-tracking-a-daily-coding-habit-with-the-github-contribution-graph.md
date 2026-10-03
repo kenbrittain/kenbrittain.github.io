@@ -3,6 +3,7 @@ title: Tracking a Daily Coding Habit with the GitHub Contributions Graph
 date: 2022-03-04
 postindex: 25
 url: /post/25/tracking-a-daily-coding-habit-with-the-github-contribution-graph
+categories: ['Productivity']
 ---
 
 I use the GitHub contributions graph to help sustain my new habit of writing

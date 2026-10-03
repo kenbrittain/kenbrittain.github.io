@@ -3,6 +3,7 @@ title: How Many Subscriptions Does Your Family Have?
 date: 2023-06-06
 postindex: 58
 url: /post/58/how-many-subscriptions-does-your-family-have
+categories: ['Essays']
 ---
 
 If you watch television or movies these days you are more than likely subscribing to a service. You may pay for some services whiles others are provided free of cost. You pay for them by viewing advertisements.

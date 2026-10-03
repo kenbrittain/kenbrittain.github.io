@@ -3,6 +3,7 @@ title: Developing Great Code is Not About the Code
 date: 2023-05-30
 postindex: 51
 url: /post/51/developing-great-code-is-not-about-the-code
+categories: ['Engineering', 'Essays']
 ---
 
 The other day I was working on a piece of code within an existing project. It was nothing magical but it needed to get done. I located where the change would be made and then it happened.

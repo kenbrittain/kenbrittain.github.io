@@ -3,6 +3,7 @@ title: Minimum Viable Jekyll Website
 date: 2021-12-04
 postindex: 12
 url: /post/12/minimum-viable-jekyll-website
+categories: ['DevOps']
 ---
 
 It has been 82 calendar days since pushing the first commit for this website.
@@ -13,7 +14,7 @@ stylesheet. It used [prismjs](https://prismjs.com/) for syntax highlighting, and
 that was segregated into two (2) different post template files. In reality, I
 was doing a lot of copy+paste to get things done. Mistakes were made but the
 goal of getting something out, that is shipped, there was accomplished .. . and
-that change everyting!
+that changed everything!
 
 This is the 12th real post, and I have been averaging 1 post every 6 days. In
 order to reduce the overhead of site maintenance I have ported my static website
@@ -70,5 +71,5 @@ Now I have what I call a *Minimal Viable Jekyll Website*. It has the same look
 and feel as the static website. It doesn't use any Jekyll theme or other Git
 repositories. It has all the content previously published, and it works great
 under GitHub Pages. I think this is still fitting of the
-original [Keep It Simple Stupid](/posts/1-keep-it-simple-stupid.html) philosophy
+original [Keep It Simple Stupid](/post/1/keep-it-simple-stupid) philosophy
 espoused in post #2.

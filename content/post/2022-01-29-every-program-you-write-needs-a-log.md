@@ -3,6 +3,7 @@ title: "Every Program You Write Needs a Log (Debug Rule #3)"
 date: 2022-01-29
 postindex: 20
 url: /post/20/every-program-you-write-needs-a-log
+categories: ['Engineering', 'DevOps']
 ---
 
 Every single program you write needs to write a log. This includes everything

@@ -3,6 +3,7 @@ title: Two Favorite C# 10 Features
 date: 2021-10-19
 postindex: 5
 url: /post/5/two-favorite-csharp-10-features
+categories: ['C#']
 ---
 
 <p>

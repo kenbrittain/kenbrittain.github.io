@@ -3,6 +3,7 @@ title: Leveling Up in Pattern Matching (Part 1)
 date: 2023-06-16
 postindex: 68
 url: /post/68/leveling-up-in-pattern-matching-part-1
+categories: ['C#']
 ---
 
 I know developers that use the pattern matching feature every chance they get. They love the flexibility it provides. I never saw the utility because you can accomplish its effect with traditional programming constructs. That means `if..then..else` statements. The documentation explains it is so much more:

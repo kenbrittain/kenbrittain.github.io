@@ -3,6 +3,7 @@ title: "Expanding My Musical Horizons: An Experiment"
 date: 2023-05-22
 postindex: 43
 url: /post/43/a-musical-game-to-expand-my-listening-range
+categories: ['Essays']
 ---
 
 At the beginning of each quarter I delete all downloaded music, playlists, songs, and albums from my library.

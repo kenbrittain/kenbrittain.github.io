@@ -3,6 +3,7 @@ title: YAML Runbooks
 date: 2021-10-30
 postindex: 6
 url: /post/6/yaml-runbooks
+categories: ['DevOps']
 ---
 
 <p>
@@ -81,6 +82,6 @@ steps:
 ```
 
 <p>
-    Next up we will look into how to compile this into a Mardown files for easy
+    Next up we will look into how to compile this into a Markdown file for easy
     viewing.
 </p>

@@ -3,6 +3,7 @@ title: New Keyword Interview Question
 date: 2021-09-22
 postindex: 2
 url: /post/2/new-keyword-interview-question
+categories: ['C#']
 ---
 
 <p>

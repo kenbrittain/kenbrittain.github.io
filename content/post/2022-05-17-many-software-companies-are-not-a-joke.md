@@ -3,6 +3,7 @@ title: Many Software Companies are *NOT* a joke
 date: 2022-05-17
 postindex: 34
 url: /post/34/many-software-companies-are-not-a-joke
+categories: ['Engineering', 'Essays']
 ---
 
 ## Many software companies are a joke

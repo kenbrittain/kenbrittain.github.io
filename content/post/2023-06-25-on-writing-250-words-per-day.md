@@ -3,6 +3,7 @@ title: On Writing 250 Words per Day
 date: 2023-06-25
 postindex: 76
 url: /post/76/on-writing-250-words-per-day
+categories: ['Essays', 'Productivity']
 ---
 
 People online are trying to write short essays for 30 days straight. It's not a challenge but more of an attempt to build a habit. The goal is to get better at writing.

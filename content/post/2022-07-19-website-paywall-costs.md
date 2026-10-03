@@ -3,6 +3,7 @@ title: Content Costs Money and This is How Much I Would Have Paid to View it All
 date: 2022-07-19
 postindex: 40
 url: /post/40/website-paywall-costs
+categories: ['Essays']
 ---
 
 Have you ever clicked on a link and were presented with a paywalled article?
@@ -37,21 +38,21 @@ Here is the list of websites.
 | [The Wall Street Journal][wsj]          | M      | $4     | $48        |
 | [Wired][wired]                          | A      | $30    | $30        |
 
-Noticably absent are [Reuters][reuters] and the [Associated Press][ap]. I am not sure
+Noticeably absent are [Reuters][reuters] and the [Associated Press][ap]. I am not sure
 if they ever asked.
 
 I tried to keep things straight but it did become confusing. There were special
 offers and deals to be had. I am not sure if they are still running the bargains
 nor do I really care. I was more interested in how much it would have cost if I
-had pay the $ for a subscription. I could have saved half of my $ by choosing a
+had paid the $ for a subscription. I could have saved half of my $ by choosing a
 single month (some only offered annual).
 
-This experiment was not scientific by any means. It was done in an adhoc manner because
-I was tired of being asked for $. You mileage may vary.
+This experiment was not scientific by any means. It was done in an ad hoc manner because
+I was tired of being asked for $. Your mileage may vary.
 
 \* The cost for the *The Financial Times* was quoted as $40 per month but they offered an annual subscription for $186.
 
-^ The cost for *Insider* was a special price of $49 where normally the subscription would $99.
+^ The cost for *Insider* was a special price of $49 where normally the subscription would be $99.
 
 
 [bloomberg]:https://www.bloomberg.com/

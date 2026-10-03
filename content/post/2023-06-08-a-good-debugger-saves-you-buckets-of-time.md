@@ -3,6 +3,7 @@ title: A Good Debugger Saves You Buckets of Time
 date: 2023-06-08
 postindex: 60
 url: /post/60/a-good-debugger-saves-you-buckets-of-time
+categories: ['Engineering']
 ---
 
 A good debugger will show you the internals of a running program. This is crucial to seeking out logic errors. The reason you are using a debugger is that something is incorrect with your program.

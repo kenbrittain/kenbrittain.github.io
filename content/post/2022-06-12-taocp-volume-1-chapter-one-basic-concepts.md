@@ -3,6 +3,7 @@ title: "TAOCP: Volume 1, Chapter 1 - Basic Concepts, 1.1 Algorithms"
 date: 2022-06-12
 postindex: 36
 url: /post/36/taocp-volume-1-chapter-one-basic-concepts
+categories: ['Books']
 ---
 
 The text begins with a bit of history and etymology of the word *algorithm* itself. After wandering through the history Knuth arrives at the modern definition:
@@ -23,11 +24,11 @@ Each algorithm is identified by a letter, in the case of Euclid's algorithm, the
 
 When referring to the algorithm within a section only the letter is used. When referring to an algorithm in another section the section number will be prefixed. For this example, Euclid's algorithm, referred to as *E* in this section, would be referred to as *Algorithm 1.1E* from other chapters. 
 
-Knuth designed this style to help describe an algorithm as text. Today we rely upon too many visual artifacts to express ourselves. During the 1990s we went through the diagramming wars with [Booch][booch], [Jacaboson][jacobson], and [Rumbagh][rumbaugh], until we arrived at [UML][uml]. Try tossing a UML diagram out there these days and see where that gets you. Descriptive text is timeless.
+Knuth designed this style to help describe an algorithm as text. Today we rely upon too many visual artifacts to express ourselves. During the 1990s we went through the diagramming wars with [Booch][booch], [Jacobson][jacobson], and [Rumbaugh][rumbaugh], until we arrived at [UML][uml]. Try tossing a UML diagram out there these days and see where that gets you. Descriptive text is timeless.
 
 ## Features of an algorithm
 
-After defining how to represent an algorithm, the text moves on to define the features of an algorithm. It is only 1 page and a half of the book but I think it is important to call attention to it. This book is is called "Fundamental Algorithms" so I have a gut feeling that algorithms, and their representation, are going to play a big part of my learning.
+After defining how to represent an algorithm, the text moves on to define the features of an algorithm. It is only 1 page and a half of the book but I think it is important to call attention to it. This book is called "Fundamental Algorithms" so I have a gut feeling that algorithms, and their representation, are going to play a big part of my learning.
 
 1. *Finiteness* - the algorithm will end after a certain number of steps.
 2. *Definiteness* - each step must be *precisely* defined. Many of the algorithms will be presented in English and as a computer program to avoid ambiguousness.
@@ -35,24 +36,24 @@ After defining how to represent an algorithm, the text moves on to define the fe
 4. *Outputs* - the algorithm has one or more outputs.
 5. *Effectiveness* - here Knuth defines effectiveness as "its operations must all be sufficiently basic that they can in principle be done exactly and in a finite length of time by someone using pencil and paper." If you can work it out on paper then you either understand it, or it is clear enough to be understood. 
 
-The section of algorithms closes with a mathematical discussion. I got  to the *computational method* part that discussed the quadruple (Q,I,&#937;, f) where Q is a set containing subset *I* and &#937; ... and then it all fades into math. Kuth references [*The Theory of Algorithms [Trudy Mat. Inst. Nauk 42 (1954), 1-376]*][ttoa] as a source I am sure I will never venture a look at. If you check out the link you find a $130 textbook. That is cheap in the realm of textbooks but not something I will ever be interested in.
+The section of algorithms closes with a mathematical discussion. I got  to the *computational method* part that discussed the quadruple (Q,I,&#937;, f) where Q is a set containing subset *I* and &#937; ... and then it all fades into math. Knuth references [*The Theory of Algorithms [Trudy Mat. Inst. Nauk 42 (1954), 1-376]*][ttoa] as a source I am sure I will never venture a look at. If you check out the link you find a $130 textbook. That is cheap in the realm of textbooks but not something I will ever be interested in.
 
 Even reading, then writing about it in this post is enough. 
 
 ## Exercises
 
-The exercises are 9 exercises with the most difficult being a level M30. Referring back the notes, this means that it is a moderately hard mathematically oriented problem. 
+The exercises are 9 exercises with the most difficult being a level M30. Referring back to the notes, this means that it is a moderately hard mathematically oriented problem. 
 
-Questions 1-6 were easy to determine the answers with Q6 actually taken time to work out. It was not complex but you just need to run through the algorithm. 
+Questions 1-6 were easy to determine the answers with Q6 actually taking time to work out. It was not complex but you just need to run through the algorithm. 
 
 Question 7, 8, and 9 dive into the realm of math. 'nuf said.
 
-[notes]:/posts/35-taocp-volume-1-notes-on-the-exercises.html	"TAOCP: Volume 1, Notes on the exercises"
+[notes]:/post/35/taocp-volume-1-notes-on-the-exercises	"TAOCP: Volume 1, Notes on the exercises"
 [booch]:https://en.wikipedia.org/wiki/Grady_Booch	"Grady Booch"
 [jacobson]: https://en.wikipedia.org/wiki/Ivar_Jacobson	"Ivar Jacobson"
 [rumbaugh]:https://en.wikipedia.org/wiki/James_Rumbaugh	"James Rumbaugh"
 [uml]:https://www.uml.org/	"Unified Modeling Language"
-[yourdon]:https://en.wikipedia.org/wiki/Edward_Yourdon	"Edward Youdon"
+[yourdon]:https://en.wikipedia.org/wiki/Edward_Yourdon	"Edward Yourdon"
 [mso]:https://www.amazon.com/Mainstream-Objects-Analysis-Approach-Computing/dp/0132091569	"Mainstream Objects: An Analysis and Design Approach for Business"
 
 [ttoa]:https://www.amazon.com/Theory-Algorithms-Mathematics-its-Applications/dp/9027727732

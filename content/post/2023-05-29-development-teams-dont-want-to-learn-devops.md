@@ -3,6 +3,7 @@ title: Development Teams Don't Want to Learn DevOps
 date: 2023-05-29
 postindex: 50
 url: /post/50/development-teams-dont-want-to-learn-devops
+categories: ['DevOps']
 ---
 
 > It is not what was designed but it is what we have..

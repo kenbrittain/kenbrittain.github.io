@@ -3,6 +3,7 @@ title: Writing Code is Writing
 date: 2023-07-01
 postindex: 82
 url: /post/82/how-to-expand-your-musical-tastes
+categories: ['Essays']
 ---
 
 People have been talking about writing every day for 30 days. They want to form a habit. I think life is allowed to get in the way and you can miss a day. I did on the last day of this month (but it was after my original 30 days). The goal is to not skip for 2 days. Once that happens you need to start over.

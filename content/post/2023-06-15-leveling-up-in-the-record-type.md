@@ -3,6 +3,7 @@ title: Leveling Up in the Record Type
 date: 2023-06-15
 postindex: 67
 url: /post/67/leveling-up-in-the-record-type
+categories: ['C#']
 ---
 
 The record type was introduced in C# 9.0 and released in November of 2020. I saw the announcements but ignored them. That makes it only took three (3) years since its introduction for me take a look.

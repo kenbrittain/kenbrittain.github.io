@@ -3,6 +3,7 @@ title: Tickets are the Shared Memory of Your Organization
 date: 2023-06-30
 postindex: 81
 url: /post/81/tickets-are-the-shared-memory-of-your-organization
+categories: ['DevOps', 'Productivity']
 ---
 
 The traditional methodology of software deployment, still alive and well in

@@ -3,9 +3,10 @@ title: Runbook Compiler
 date: 2021-11-09
 postindex: 7
 url: /post/7/runbook-compiler
+categories: ['DevOps', 'Engineering']
 ---
 
-In this [post](/posts/6-yaml-runbooks.html) I recommended storing your runbooks
+In this [post](/post/6/yaml-runbooks) I recommended storing your runbooks
 in the YAML format. The idea was to keep the system documentation, and runbooks
 are a form of system documentation, in a developer friendly format. This simple
 step would enable document changes to be committed along with the source code

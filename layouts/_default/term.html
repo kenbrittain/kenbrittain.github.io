@@ -1,11 +1,11 @@
-{{ define "heading" }}Code + DevOps{{ end }}
+{{ define "heading" }}Category: {{ .Title }}{{ end }}
 
 {{ define "main" }}
 <p><a href="/about">About</a> &middot; <a href="/categories">Categories</a> &middot; <a href="/projects">Projects</a> &middot; <a href="/index.xml">RSS</a></p>
 
-{{ $posts := where .Site.RegularPages "Section" "post" }}
+{{ $posts := where .Pages "Section" "post" }}
 {{ if not $posts }}
-<p>No blog posts found. Create your first post in the <code>content/post/</code> directory!</p>
+<p>No blog posts found in this category.</p>
 {{ else }}
 <ul>
 {{ range ($posts.ByParam "postindex").Reverse }}
@@ -13,4 +13,6 @@
 {{ end }}
 </ul>
 {{ end }}
+
+<p><a href="/categories">&lt; back to categories</a> &middot; <a href="/">&lt; home</a></p>
 {{ end }}

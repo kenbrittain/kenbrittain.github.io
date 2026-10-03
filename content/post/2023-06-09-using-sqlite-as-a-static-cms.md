@@ -3,6 +3,7 @@ title: Using SQLite as a Static CMS
 date: 2023-06-09
 postindex: 61
 url: /post/61/using-sqlite-as-a-static-cms
+categories: ['Engineering']
 ---
 
 SQLite is a database the operates out of a single file. The engine is embedded and does not require a separate process for management.

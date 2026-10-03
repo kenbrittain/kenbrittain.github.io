@@ -3,6 +3,7 @@ title: Leveling Up on Null Conditional Operators
 date: 2023-06-22
 postindex: 74
 url: /post/74/leveling-up-on-null-conditional-operators
+categories: ['C#']
 ---
 
 The null conditional operator short circuit bad code from executing. The `?.` and `?[]` operators will return the operand if the operand is not `null`.

@@ -3,6 +3,7 @@ title: Don't Settle for Bad Git Commit Messages
 date: 2021-12-02
 postindex: 11
 url: /post/11/dont-settle-for-bad-git-commit-messages
+categories: ['Engineering', 'DevOps']
 ---
 
 I grew up using not-git. This doesn't mean that I have not used version control
@@ -59,8 +60,7 @@ separated from the description by a blank line when editing.
 
 Here is an example of what I am trying to go for:
 
-![Good Message](/assets/img/11-github-commit-message-good.png "Good Commit 
-Message")
+![Good Message](/assets/img/11-github-commit-message-good.png "Good Commit Message")
 
 ## The Bad
 

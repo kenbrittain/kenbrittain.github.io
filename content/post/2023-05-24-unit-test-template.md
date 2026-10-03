@@ -3,6 +3,7 @@ title: Unit Test Templates to Make Your Life Easier
 date: 2023-05-24
 postindex: 45
 url: /post/45/unit-test-template
+categories: ['Testing', 'C#']
 ---
 
 When writing unit tests I like to make an outline of the intended tests. Actively thinking and writing the structure of a test suite allows me to focus on what I want to test. Writing the actual tests just becomes work.

@@ -3,6 +3,7 @@ title: "Initialize Members Together (Debug Rule #2)"
 date: 2022-01-22
 postindex: 19
 url: /post/19/initialize-members-together
+categories: ['C#', 'Engineering']
 ---
 
 When debugging code I want to follow the flow and not get bounced around in the

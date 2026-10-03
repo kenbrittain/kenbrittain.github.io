@@ -26,6 +26,8 @@ This is a Hugo static site deployed to GitHub Pages at `https://kenbrittain.com`
 **Templates:**
 - `layouts/_default/baseof.html` — base HTML shell with highlight.js and analytics
 - `layouts/index.html` — homepage lists posts sorted by `postindex` descending
+- `layouts/_default/terms.html` — categories index page listing all categories
+- `layouts/_default/term.html` — category page listing posts in that category
 - `layouts/_default/single.html` — single page template (renders `.Content` + back link)
 - `layouts/post/single.html` — post-specific single template
 
@@ -37,6 +39,7 @@ date = 2026-01-01
 postindex = 88
 url = /post/88/post-title
 draft = false
+categories = ['DevOps', 'CSharp']
 +++
 ```
 

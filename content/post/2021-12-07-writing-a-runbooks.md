@@ -3,6 +3,7 @@ title: Writing a Runbook
 date: 2021-12-07
 postindex: 13
 url: /post/13/writing-a-runbooks
+categories: ['DevOps']
 ---
 
 Let's face it: runbooks are a form of system documentation. Nobody likes to read
@@ -31,7 +32,7 @@ it easily scannable and help folks out.
 * **Summary** - include a summary that gives a brief overview of what the
   runbook actual will accomplish. This should include the keywords for the major
   actions taking place. For example, "_This runbook explains how to restart the
-  Foobar application runnning on our Windows web servers. You will need
+  Foobar application running on our Windows web servers. You will need
   administrator access to the server_"  pretty much lets everyone know what is
   going on.
 * **Note** - I prefer to include any specific notes that are not really part of
@@ -75,7 +76,7 @@ contact: team - teamdl@yourcompany.com or oncall cell 555-555-1212"
 The next section is the meat of the runbook: steps. If someone has scanned
 enough to find a resolution to their problem, they are going straight to this
 section to determine how to resolve their issue. The steps give them the simple,
-stept-by-step instructions, or activities to move them toward solving their
+step-by-step instructions, or activities to move them toward solving their
 problem.
 
 The goal is to provide enough information so that someone, who is not intimately
@@ -88,7 +89,7 @@ to say that nobody from the marketing department will be jumping onto a bridge
 to help stop your service from flapping.
 
 * **Name** - the name of the step should give an indication to the major 
-  purpose of the step. Just let everyone know what wil happen with the name. 
+  purpose of the step. Just let everyone know what will happen with the name. 
   Remember, the runbook will likely not be read thoroughly, unless your 
   solution doesn't work, in which case, a second more in depth read may happen. 
 * **Summary** - the summary gives details the activity to perform. I like to 
@@ -138,7 +139,7 @@ better. You are starting from zero. If you are looking at using Microsoft Word,
 and storing the runbooks in [SharePoint][sp], I would argue that is better than
 a network shared folder of documents.
 
-If you are writing your runbooks in YAML, similar to what I have descrbied 
+If you are writing your runbooks in YAML, similar to what I have described 
 above, then you have three (3) benefits:
 
 1. They are easily scannable because the sections are clearly defined by the

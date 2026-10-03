@@ -3,6 +3,7 @@ title: Using a Bullet Journal and Autofocus for Getting Things Done
 date: 2022-08-19
 postindex: 41
 url: /post/41/using-a-bullet-journal-and-autofocus-tasklist-to-get-things-done
+categories: ['Productivity']
 ---
 
 Have you tried every productivity system available and still cannot get things done?
@@ -52,7 +53,7 @@ Again, I use two (2) different color inks to keep personal and work related item
 
 I have been using the Autofocus system during my past three (3) jobs. I have tried digital tools and managers. There is always an issue with what to do in a meeting, or during a conversation. Using paper I can carry it with me at all times. Somebody asks for something and you just write it down. Personally I prefer the steno type notebooks that flip pages top-to-bottom. That keeps the writing area free on the sides.
 
-The Bullet Journal grew out of trying to write down meeting notes, or observations, using the Autofocus notebook and process. I would try and write notes as taks and that never worked. I also tried just using a new page for longer form thoughts. It really got messy with the two (2) types of notes getting conflated in the same notebook. Finally, it dawned upon me to just use another notebook for notes. Enter the Bullet Journal.
+The Bullet Journal grew out of trying to write down meeting notes, or observations, using the Autofocus notebook and process. I would try and write notes as tasks and that never worked. I also tried just using a new page for longer form thoughts. It really got messy with the two (2) types of notes getting conflated in the same notebook. Finally, it dawned upon me to just use another notebook for notes. Enter the Bullet Journal.
 
 The system is not perfect but it allows for thoughts to be recorded in long form and tasks to be tracked. Not much gets lost along the way.
 

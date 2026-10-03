@@ -3,13 +3,14 @@ title: Defining a Full Test Suite for Command Line Applications
 date: 2022-03-19
 postindex: 27
 url: /post/27/defining-a-full-test-suite-for-command-line-applications
+categories: ['Testing', 'Engineering']
 ---
 
 The runbook-compiler project is a command line application. It is used for compiling [YAML][yaml] structured runbook definitions into other formats for publishing and execution. Like any other modern software project, automated testing is a key component, always under development, and *hopefully* making the project better.
 
 I have found that when developers talk about their testing efforts the definitions they use, and the deliverables they create can all mean different things. It really depends upon the team and the course they took to get where they are. I have heard it said that _that this is not what we intended but this is where we are_.
 
-This post defines the unit test framework. The goal is define where we want to go so we don't arrive where we don't want to be. This project will be follow this testing stratgey:
+This post defines the unit test framework. The goal is to define where we want to go so we don't arrive where we don't want to be. This project will be follow this testing strategy:
 
 * **Unit Tests** - exercise the source code functionality and run quickly. These tests will be run during development and after builds.
 * **Integration Tests** - exercise the integration with and usage of external dependencies. These tests will be run after builds are performed.
@@ -19,15 +20,15 @@ As we go down this list of testing the answers will get more vague. Why? Well, I
 
 ## Unit Tests
 
-Writing tests may involve more than a framework but you still need to choose one. While it is possible to write your own framework, and I have been on teams that has done this, the amount of work is probably beyond what you would want to accept. Besides, once you accept that burden, you are alway playing catch up. 
+Writing tests may involve more than a framework but you still need to choose one. While it is possible to write your own framework, and I have been on teams that has done this, the amount of work is probably beyond what you would want to accept. Besides, once you accept that burden, you are always playing catch up. 
 
-This project is build on the .NET 6 SDK. There are three (3) major testing frameworks for the .NET ecosystem that I know of. I have used two (2) of them professionally. I recommend one (1).
+This project is built on the .NET 6 SDK. There are three (3) major testing frameworks for the .NET ecosystem that I know of. I have used two (2) of them professionally. I recommend one (1).
 
 * [MSTest][mstest]  - I have used this framework extensively on projects but have been migrating away from it recently.
 * [NUnit][nunit] - I have only used this framework for evaluation purposes. This is a fully functional framework for writing unit tests and has great documentation. I just did not choose it over [xUnit][xunit].
 * [xUnit][xunit] (recommended) - I currently use this framework unless working on legacy code with another framework in place.
 
-I have only used the [MSTest][mstest] and [xUnit][xunit] frameworks. Each framework comes with a set of functionality that allows for the running of a set of tests. These tests are defined, usually in a test project, but always as classes following the framework conventions. The following attributes are used to identify tests. I am currently using and recommending the [xUnit][xunit] framework over the [MSTest][mstest] framwork. Both frameworks run within Microsoft [Visual Studio][vs], JetBrain's [Rider][rider], and under the `dotnet` command line tooling. 
+I have only used the [MSTest][mstest] and [xUnit][xunit] frameworks. Each framework comes with a set of functionality that allows for the running of a set of tests. These tests are defined, usually in a test project, but always as classes following the framework conventions. The following attributes are used to identify tests. I am currently using and recommending the [xUnit][xunit] framework over the [MSTest][mstest] framework. Both frameworks run within Microsoft [Visual Studio][vs], JetBrain's [Rider][rider], and under the `dotnet` command line tooling. 
 
 | Feature           | MSTest           | xUnit                 |
 | ----------------- | ---------------- | --------------------- |
@@ -78,13 +79,13 @@ What once began as an exercise in utilizing the [Test Anything Protocol][tap] to
 
 The goal of functional testing is to run the actual commands the user would run. All externals services would need to be available and operational. Similar to using TAP this is a very black box style of testing. The inputs are command line parameters. The outputs are the console messages.
 
-I have not identified a library to handle the running of the project. The test framework will still be [xUnit][xunit]. This is because each test case, or `[Fact]` in xUnit parlance is easily run and managed. The only special code would be the executing of the runbook-compiler executable and capturing the output. This is a know problem and can easily solved. I will be looking in to the Test Anything Protocol to see what can be leveraged there.
+I have not identified a library to handle the running of the project. The test framework will still be [xUnit][xunit]. This is because each test case, or `[Fact]` in xUnit parlance is easily run and managed. The only special code would be the executing of the runbook-compiler executable and capturing the output. This is a known problem and can easily be solved. I will be looking in to the Test Anything Protocol to see what can be leveraged there.
 
 ## Summary
 
 I am looking forward to integrating these testing strategies into this project. Mike Cohn described the test pyramid as something similar to this. As you go up the pyramid, so does the integration, and time to run. In the end, exercising a fully working system is the goal. The approach would be automation using an existing testing framework.
 
-![Testing Pyramid](../../assets/img/27-testing-pyramid.png)
+![Testing Pyramid](/assets/img/27-testing-pyramid.png)
 
 
 

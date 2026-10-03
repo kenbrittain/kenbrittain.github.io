@@ -3,6 +3,7 @@ title: "TAOCP: Volume 1, Chapter 1 - Basic Concepts, 1.2.1 Mathematical Inductio
 date: 2022-06-27
 postindex: 38
 url: /post/38/taocp-volume-1-chapter-one--mathematical-induction
+categories: ['Books']
 ---
 
 Mathematical induction is concept for proving that if a procedure, or equation, *P(n)* is true for *all positive integers n*, you can prove that *P(1)* is true, and also that *P(n+1)* is true. The *P(n+1)* part if the induction. It is something that you believe to be true. It is something that you worked out long hand and found to be reasonable true.

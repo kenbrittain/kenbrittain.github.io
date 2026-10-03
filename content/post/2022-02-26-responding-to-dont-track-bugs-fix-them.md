@@ -3,6 +3,7 @@ title: Responding to Don't Track Bugs, Fix Them
 date: 2022-02-26
 postindex: 24
 url: /post/24/responding-to-dont-track-bugs-fix-them
+categories: ['Engineering', 'Testing']
 ---
 
 On February 25, 2022, [Allan Holub][0] published a post titled
@@ -43,7 +44,7 @@ work their way into the software. Nobody is perfect even Allan Holub.
 > track.
 
 What some folks are not getting is that he is not claiming to write bug free 
-code. He is not tracking bugs because for two (2) reasons:
+code. He is not tracking bugs for two (2) reasons:
 
  1. If a bug is unknown then there is nothing to track and,
  2. If a bug is going to live long enough so that it needs to tracked you 
@@ -58,9 +59,9 @@ I agree with Allan that all bugs should be fixed. We can go a step further and
 say that all known bugs should be fixed before shipping. This last statement is
 generally overridden by someone who wants most of a product, with bugs, than
 waiting for all of a product without bugs. Allan would say that this a
-prioritization problem, and he is right. Someone is priorizing functionality
+prioritization problem, and he is right. Someone is prioritizing functionality
 over quality. However, I would prefer to have that bug recorded in a defect
-tracking system. It is not that we wont ever fix the bug. It just won't be fixed
+tracking system. It is not that we won't ever fix the bug. It just won't be fixed
 now.
 
 ![Twitter Quote](/assets/img/24-allenholub-twitter.png)

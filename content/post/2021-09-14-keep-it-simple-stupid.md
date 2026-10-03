@@ -3,6 +3,7 @@ title: Keep it Simple Stupid
 date: 2021-09-14
 postindex: 1
 url: /post/1/keep-it-simple-stupid
+categories: ['Engineering']
 ---
 
 There are companies being funded that solely provide blogging tools for developers: [Hashnode][HN] and [DEV][DEV]. So why not just use that? Well, I went through the usual developer range of solutions:

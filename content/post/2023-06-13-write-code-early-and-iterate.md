@@ -3,6 +3,7 @@ title: Write Code Early and Iterate
 date: 2023-06-13
 postindex: 65
 url: /post/65/write-code-early-and-iterate
+categories: ['Engineering']
 ---
 
 DevOps has the concept of controlling the blast radius for a change. You gradually make the intended change, expanding it's reach in iterations, until you finally achieve your roll out goals. At any point during the process, if something went wrong, you were in control. If you deployed everything at all once to production and it failed you would need to roll everything back. If you deployed a piece of the change to a segment of your environment any errors would only affect a smaller portion of you customers. You get the idea.

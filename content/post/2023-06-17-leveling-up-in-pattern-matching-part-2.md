@@ -3,6 +3,7 @@ title: Leveling Up in Pattern Matching (Part 2)
 date: 2023-06-17
 postindex: 69
 url: /post/69/leveling-up-in-pattern-matching-part-2
+categories: ['C#']
 ---
 
 Relational pattern matching is used to test a value against a range of constants. This is clearly the modern replacement for an `if..then..else` block that I am used to.

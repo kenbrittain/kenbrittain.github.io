@@ -3,6 +3,7 @@ title: Phases of DevOps Adoption
 date: 2021-10-06
 postindex: 4
 url: /post/4/phases-of-devops-adoption
+categories: ['DevOps']
 ---
 
 <p>

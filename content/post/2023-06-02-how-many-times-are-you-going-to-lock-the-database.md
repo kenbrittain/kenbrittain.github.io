@@ -3,6 +3,7 @@ title: How Many Times Are You Going to Lock the Database
 date: 2023-06-02
 postindex: 54
 url: /post/54/how-many-times-are-you-going-to-lock-the-database
+categories: ['Engineering', 'DevOps']
 ---
 
 The database is a company wide shared resource. It is big and it is expensive to run. When it has problems people notice. Even in development where there are hundreds of development teams working.

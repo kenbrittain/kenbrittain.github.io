@@ -3,6 +3,7 @@ title: Q2'23 Music Challenge Results
 date: 2023-07-03
 postindex: 83
 url: /post/83/q223-music-challenge-results
+categories: ['Essays']
 ---
 
 The 2nd quarter has closed.

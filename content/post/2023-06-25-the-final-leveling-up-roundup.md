@@ -3,6 +3,7 @@ title: The Final Leveling Up Roundup
 date: 2023-06-25
 postindex: 77
 url: /post/77/the-final-leveling-up-roundup
+categories: ['C#']
 ---
 
 The goal was to look into the newer C# language features. I felt that some of them may not have gotten an adequate hearing. Some of the features are actively being used, while others are still, in a word, shunned.

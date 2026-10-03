@@ -3,6 +3,7 @@ title: Constraints Help Get Things Done
 date: 2025-07-31
 postindex: 85
 url: /post/85/constraints-help-get-things-done
+categories: ['Productivity', 'Engineering']
 ---
 
 Looking at what I had accomplished over the past two (2) years was a humbling treat. Let's face it. I did a lot. I was busy. But I did not meet any goals, ship any software, and if I am being totally honest ... I really didn't move forward. I was stuck.

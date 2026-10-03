@@ -3,6 +3,7 @@ title: "Arrange/Act/Assert (Writing Unit Tests Part #2)"
 date: 2022-04-02
 postindex: 29
 url: /post/29/arrange-act-assert-writing-unit-tests
+categories: ['Testing', 'C#']
 ---
 
 This is where your unit testing writing work begins.
@@ -136,6 +137,8 @@ If the unit test is small enough then I will remove them (most of the time). As 
 [10]:https://kenbrittain.com/post/10/unit-testing-system-io
 [nsub]:https://nsubstitute.github.io/
 [moq]:https://github.com/Moq
+[mstest]:https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices
+[xunit]:https://xunit.net/
 
 
 

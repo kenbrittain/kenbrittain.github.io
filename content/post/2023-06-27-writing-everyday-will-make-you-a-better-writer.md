@@ -3,6 +3,7 @@ title: Writing Everyday Will Make You a Better Writer
 date: 2023-06-27
 postindex: 79
 url: /post/79/writing-everyday-will-make-you-a-better-writer
+categories: ['Essays']
 ---
 
 Does writing everyday change your life as some on the internet claim? Probably not but you do get better at writing. Writing everyday is practice. That practice translate into some base level of improvement.

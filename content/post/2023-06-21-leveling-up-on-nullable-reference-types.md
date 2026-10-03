@@ -3,6 +3,7 @@ title: Leveling Up on Nullable Reference Types
 date: 2023-06-21
 postindex: 73
 url: /post/73/leveling-up-on-nullable-reference-types
+categories: ['C#']
 ---
 
 Nullable reference types define a world where not all reference types can be null. When enabled, and it is enabled by default, when using or assigning to `null`, you need to let the compiler know about it. Otherwise you will get a warning or error (depending upon your compiler settings).
